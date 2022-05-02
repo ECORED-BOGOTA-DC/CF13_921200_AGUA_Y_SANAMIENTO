@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="415" height="251" viewBox="0 0 415 251">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.006" y1="0.696" x2="0.974" y2="0.726" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9eb7e5"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_78300" data-name="Grupo 78300" transform="translate(-180 -404)">
+    <path id="Rectángulo_5183" data-name="Rectángulo 5183" d="M131,0H415a0,0,0,0,1,0,0V251a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V131A131,131,0,0,1,131,0Z" transform="translate(180 404)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
