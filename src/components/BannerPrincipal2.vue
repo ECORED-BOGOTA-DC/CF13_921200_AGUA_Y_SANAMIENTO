@@ -17,9 +17,9 @@
 
       .d-none.d-lg-block.col-lg-5.px-5.banner-principal__img
         img(:src="globalData.imagenBannerPrincipal" style="width: 481px")
-      .imagen_flotante_1: img(src="@/assets/curso/portada/float1.png")
-      .imagen_flotante_2: img(src="@/assets/curso/portada/float2.png")
-      .imagen_flotante_3: img(src="@/assets/curso/portada/float3.png")
+    //-.imagen_flotante_1: img(src="@/assets/curso/portada/float1.png")
+    //-.imagen_flotante_2: img(src="@/assets/curso/portada/float2.png")
+    //-.imagen_flotante_3: img(src="@/assets/curso/portada/float3.png")
     //-.imagen_flotante_4.d-none.d-xl-block: img(src="@/assets/curso/portada/float3.png")
     //-.imagen_flotante_7: img(src="@/assets/curso/portada/float2.png")
     //-.imagen_flotante_8: img(src="@/assets/curso/portada/float1.png")
@@ -50,6 +50,8 @@ export default {
 .banner-principal__info
   padding-left: 80px  !important
   z-index: 3
+  @media screen and ( max-width: 992px )
+    padding-left: 33px  !important
 
 
 .banner-principal

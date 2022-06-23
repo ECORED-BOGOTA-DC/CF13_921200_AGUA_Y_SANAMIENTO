@@ -30,21 +30,21 @@
 
     .bg_fondo14.mb-5
       .row.align-items-end
-        .col-12.col-md-3
+        .col-12.col-md-3.mb-4.mb-md-0(data-aos="fade-right")
           figure.justify-center
             img.img-fluid(src="@/assets/curso/tema3/img02.png")        
-        .col-12.col-md-7
+        .col-12.col-md-7(data-aos="fade-left")
           ul.lista-ul
             li 
               i.fas.fa-angle-right(style= "color: #5D00F5")
-              | Públicos: dependientes del estado.
+              p.mt-2.m-0 Públicos: dependientes del estado.
             li 
               i.fas.fa-angle-right(style= "color: #5D00F5")
-              | Privados: prestadores de servicios de salud y agremiaciones, entre otras; aunque las instituciones privadas también deben reportar a los sistemas de información gubernamentales, sus sistemas son independientes, no se encuentran integrados y no necesariamente son compatibles con los estatales (Bernal, O., y Forero J, (2011), p.90).
+              p.mt-2.m-0 Privados: prestadores de servicios de salud y agremiaciones, entre otras; aunque las instituciones privadas también deben reportar a los sistemas de información gubernamentales, sus sistemas son independientes, no se encuentran integrados y no necesariamente son compatibles con los estatales (Bernal, O., y Forero J, (2011), p.90).
     
     .row.justify-content-center
       .col-12.col-md-8
-        p.m-0.border.border-2.p-2.text-center Buscar información sobre las condiciones de salud de la población en Colombia se puede realizar gracias a la existencia de unos instrumentos de recolección de información que se han implementado durante la última década.
+        p.m-0.border.border-2.p-2.text-center(data-aos="fade-up") Buscar información sobre las condiciones de salud de la población en Colombia se puede realizar gracias a la existencia de unos instrumentos de recolección de información que se han implementado durante la última década.
 
     Separador
 
@@ -53,52 +53,54 @@
 
     p.m-0.mb-4 Aunque no todas las entidades prestadoras de servicios de salud pertenecen al estado, si todas están en la obligación de informar y reportar todas las variables que sean de especial seguimiento y que son determinadas por el Ministerio de Salud. 
 
-    .row
+    .row(data-aos="fade-right")
       .col-xl-11
         TabsA.color-acento-botones.mb-5
           .tarjeta.color-acento-botones--borde.p-4(titulo="Sistema de Vigilancia en Salud Pública (SIVIGILA)")
             .row
               .col-xl-12.mb-3.mt-2
-                p.m-0.mt-4.ms-3 El sistema regulador y que consolida la información es el Sistema de Vigilancia en Salud Pública (SIVIGILA), de acuerdo con Bernal, O., y Forero J, (2011) “es un sistema de reporte de eventos de interés en salud pública, gestionado por el Instituto Nacional de Salud (INS), que reporta especialmente patologías infecciosas, aunque recientemente se ha adicionado un módulo de mortalidad materna” (p.90).
+                h5.ms-0.ms-xl-3 Sistema de Vigilancia en Salud Pública (SIVIGILA)
+                p.m-0.mt-4.ms-0.ms-xl-3 El sistema regulador y que consolida la información es el Sistema de Vigilancia en Salud Pública (SIVIGILA), de acuerdo con Bernal, O., y Forero J, (2011) “es un sistema de reporte de eventos de interés en salud pública, gestionado por el Instituto Nacional de Salud (INS), que reporta especialmente patologías infecciosas, aunque recientemente se ha adicionado un módulo de mortalidad materna” (p.90).
             .row.justify-content-around.align-items-center
               .col-xl-8.mb-4
-                p.m-0.ms-3 Este sistema siempre se encuentra en actualización para mejorar los reportes, una de las últimas actualizaciones más importantes fue realizada en el 2017 mejorando procesos de notificación y gestión de información que se aplicarán en el periodo del 2018 al 2020 (Instituto Nacional de Salud INS, 2017).
-              .col-xl-3
+                p.m-0.ms-0.ms-xl-3 Este sistema siempre se encuentra en actualización para mejorar los reportes, una de las últimas actualizaciones más importantes fue realizada en el 2017 mejorando procesos de notificación y gestión de información que se aplicarán en el periodo del 2018 al 2020 (Instituto Nacional de Salud INS, 2017).
+              .col-xl-4
                 figure
                   img(src='@/assets/curso/tema3/img04.svg', alt='Texto que describa la imagen')
           
           .tarjeta.color-acento-botones--borde.p-4(titulo="Sistema Integrado de Información de la Protección Social (SISPRO)")
             .row
               .col-xl-12.mb-3.mt-2
+                h5 Sistema Integrado de Información de la Protección Social (SISPRO)
                 p.m-0 Este sistema es considerado la bodega de datos de salud del país, en el cual integra datos e información de salud, pensiones, riesgos profesionales, trabajo, empleo y asistencia social. Cada fuente de información del Sistema de Información de la Protección Social (SISPRO) tiene una estructura de reporte y consolidación independiente (Bernal, O y Forero J, 2011, p.90).
 
             .row.justify-content-around.align-items-center
-              .col-xl-8.mb-4
+              .col-xl-7.mb-4
                 p.m-0.mb-3 Se puede definir algunas características generales del sistema de acuerdo con la información suministrada por el ministerio de salud y protección social (s.f.)
                 ul.lista-ul
                   li 
                     i.fas.fa-angle-right(style= "color: #5D00F5")
-                    | Está conformado por bases de datos.
+                    p.mt-1.m-0 Está conformado por bases de datos.
                   li 
                     i.fas.fa-angle-right(style= "color: #5D00F5")
-                    | Cuenta con información de oferta y demanda de servicios de salud y todo lo asociado a los mismos.
+                    p.mt-1.m-0 Cuenta con información de oferta y demanda de servicios de salud y todo lo asociado a los mismos.
                   li 
                     i.fas.fa-angle-right(style= "color: #5D00F5")
-                    | Permite la construcción de indicadores.
+                    p.mt-1.m-0 Permite la construcción de indicadores.
                   li 
                     i.fas.fa-angle-right(style= "color: #5D00F5")
-                    | Recoge información de fuentes internas y externas del ministerio.
-              .col-xl-4.align-self-end.mb-5
+                    p.mt-1.m-0 Recoge información de fuentes internas y externas del ministerio.
+              .col-xl-5.align-self-end.mb-5
                 figure
                   img(src='@/assets/curso/tema3/img05.svg', alt='Texto que describa la imagen')
 
-    p.m-0.mb-5 Este sistema es alimentado o construido por medio de diferentes reportes que recibe de otros instrumentos como: 
+    p.m-0.mb-4.mb-md-5 Este sistema es alimentado o construido por medio de diferentes reportes que recibe de otros instrumentos como: 
 
     .row.justify-content-center
-      .col-12.col-md-4
+      .col-12.col-md-4.mb-4.mb-md-0(data-aos="fade-right")
         figure
           img.img271(src='@/assets/curso/tema3/img06.svg')
-      .col-12.col-md-8
+      .col-12.col-md-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="El Registro Único de Afiliados (RUAF)")
             .col-md-12.mb-4.mb-md-0

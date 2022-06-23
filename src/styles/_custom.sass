@@ -49,6 +49,12 @@
 
   //tamaño imágenes
 
+.img70
+  max-width: 70px
+
+.img85
+  max-width: 85px
+
 .img92
   max-width: 92px
 
@@ -61,8 +67,18 @@
     top: 25%
     right: 17%
 
+.img300
+  max-width: 300px
+
 .img271
-  max-width: 271px    
+  max-width: 271px 
+  @media screen and ( max-width: 992px )
+    max-width: 140px
+    margin-left: 30%
+
+.img145
+    max-width: 145px
+    
 
 //otros
 
@@ -71,10 +87,18 @@ hr:not([size])
     border-color: #5D00F5
     width: 7%
 
-.hr:not([size]) 
+.hr
+  hr:not([size]) 
     height: 2px
     border-color: #5D00F5
     width: 50%
+
+  //.hr_1
+    hr:not([size]) 
+      height: 2px
+      border-color: #AFAFAF
+      width: 100%
+
 
 .tabs-b__tab__icon 
     width: 85px
@@ -83,6 +107,9 @@ hr:not([size])
     background-color: #EAE7FE
     border-right: 3px solid #AFAFAF
     border-bottom: 0
+
+.tabs-b__tab--active
+    background-color: #ffffff
 
 .tabs-b 
     border-bottom: 0
@@ -149,10 +176,16 @@ hr:not([size])
     height: 100%
     background-image: url("../assets/curso/tema1/img27.svg")
     background-repeat: no-repeat
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      left: 8%
+    @media screen and ( max-width: 992px )
+      background-size: cover
+      left: -3%
+      width: calc(100% + 2rem)
 
 .bg_fondo5
   position: relative
-  img, p
+  .row
     position: relative
   &::before
     content: ''
@@ -217,13 +250,14 @@ hr:not([size])
   &::before
     content: ''
     position: absolute
-    margin: 0 0rem
-    top: 0
+    margin: 0 -1rem
+    top: -10px
     left: -4%
     width: calc(100% + 6rem)
-    height: calc(100% + 5rem)
+    height: calc(100% + 3rem)
     background-image: url("../assets/curso/tema2/img14.svg")
     background-repeat: no-repeat
+    background-size: cover
 
 .bg_fondo10
   position: relative
@@ -233,12 +267,14 @@ hr:not([size])
     content: ''
     position: absolute
     margin: 0 0rem
-    top: 30px
+    top: 41px
     left: 0
     width: calc(100% + 6rem)
     height: 100%
     background-image: url("../assets/curso/tema2/img20.svg")
     background-repeat: no-repeat
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      top: 25px
 
 .bg_fondo11
   position: relative
@@ -250,10 +286,16 @@ hr:not([size])
     margin: 0 0rem
     top: 34px
     left: 9%
-    width: calc(100% + 6rem)
+    width: calc(100% + 7rem)
     height: 85%
     background-image: url("../assets/curso/tema2/img22.svg")
     background-repeat: no-repeat
+    background-size: cover
+    @media screen and ( max-width: 992px )
+      top: -115px
+      left: -21%
+      height: 115%
+
 
 .bg_fondo12
   position: relative
@@ -263,12 +305,15 @@ hr:not([size])
     content: ''
     position: absolute
     margin: 0 0rem
-    top: -20px
-    left: -6%
+    top: -21px
+    left: -11%
     width: calc(100% + 6rem)
-    height: calc(100% + 5rem)
+    height: calc(100% + 3rem)
     background-image: url("../assets/curso/tema2/img25.svg")
     background-repeat: no-repeat
+    background-size: cover
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      left: -13%
 
 .bg_fondo13
   position: relative
@@ -284,6 +329,13 @@ hr:not([size])
     height: 99%
     background-image: url("../assets/curso/tema2/img32.svg")
     background-repeat: no-repeat
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      top: 35px
+      height: 70%
+    @media screen and ( max-width: 992px )
+      background-size: cover
+      margin: 21px -2rem
+      top: 8px
 
 .bg_fondo14
   position: relative
@@ -299,6 +351,8 @@ hr:not([size])
     height: 100%
     background-image: url("../assets/curso/tema3/img03.svg")
     background-repeat: no-repeat
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      top: 33px
 
 .bg_fondo15
   position: relative
@@ -315,8 +369,37 @@ hr:not([size])
     background-image: url("../assets/curso/tema4/img02.svg")
     background-repeat: no-repeat
 
+.bg_fondo16
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 10px -1rem
+    top: 0rem
+    left: 1%
+    width: calc(100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema1/img25.svg")
+    background-repeat: no-repeat
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      margin: 35px -1rem
+      width: calc(100% + 1rem)
+      top: -2rem
+    @media screen and ( max-width: 992px )
+      background-size: cover
+      top: -8%
+      left: -3%
+      width: calc(100% + 5rem)
+      height: 108%
+
+
 .tarjeta-numerada.color-primario
     border-color: #43427D
+    background-color: #FFFFFF
+    @media screen and ( max-width: 992px )
+      margin-left: 4rem
 
 .tarjeta-numerada 
     border: solid 5px
@@ -343,11 +426,19 @@ hr:not([size])
   width: auto
   height: auto   
 
-.tarjeta--azul 
-    background-color: #F6F6F6
+.height_tarjavatar-b1-t1
+  .tarjeta-avatar-b .tarjeta 
+    height: 155px
 
 .tarjeta-avatar-b .tarjeta 
-    height: 155px
+    height: 150px
+    margin-top: 12px
+    @media screen and ( max-width: 992px )
+      height: 315px
+
+.height_tarjavatar-b2-t2
+  .tarjeta-avatar-b .tarjeta 
+    height: 120px!important
 
 .tarjeta.color-acento-botones--borde 
     background-color: #E9EBF2
@@ -396,7 +487,7 @@ hr:not([size])
 
 .tarjeta.color-acento-contenido 
     background: linear-gradient(0deg, rgba(209,213,226,100) 0%, rgba(235,235,238,100) 100%) 
-    border-radius: 0
+    border-radius: 21px
 
 .text-black
   @media screen and ( max-width: 420px  )
@@ -432,22 +523,8 @@ hr:not([size])
 .bloque-texto-g.color-secundario 
     background-color: #26A0DF
 
-.linea-tiempo-d__item__number 
-    color: #fff
-
-.linea-tiempo-d .tarjeta 
-    background: linear-gradient(0deg, rgba(246,249,254,100) 0%, rgba(237,234,254,100) 100%)  
-
 .bloque-texto-g.color-primario 
     background-color: #8B7CF7
-
-.img-a 
-  display: block
-  margin: auto
-
-.img-t
-  width: auto
-  height: auto 
 
 .up
   z-index: 2  
@@ -468,6 +545,33 @@ hr:not([size])
 
 .lista-ol--cuadro__vineta 
     background-color: #6451EB
+
+.Lista_t1-2
+  .lista-ol--cuadro__vineta 
+    background-color: #51B3E5
+    border-radius: 50px
+    height: 50px
+    width: 50px
+    font-size: 30px
+    @media screen and ( max-width: 992px )
+      width: 74px
+
+.width_num2
+  width: 63px!important
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    width: 74px!important
+  @media screen and ( max-width: 992px )
+      width: 102px!important
+
+.width_num3
+  width: 95px!important
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    width: 109px!important
+  @media screen and ( max-width: 992px )
+      width: 160px!important
+
+.lista-ol--separador li
+    border-bottom: solid 2.5px #b0c0d2
 
 .tarjeta-flip.color-secundario .tarjeta-flip__img 
     height: 350px
@@ -492,7 +596,7 @@ hr:not([size])
     padding-left: 1.5rem
 
 .m-top
-  margin-top: 6rem
+  margin-top: 4rem
   @media screen and ( max-width: 420px  )
     margin-top: 3rem
 
@@ -552,3 +656,57 @@ hr:not([size])
 
 .tarjeta-numerada.color-secundario .tarjeta-numerada__numero div 
     color: #FFFFFF
+
+.flex-center-text
+  align-items: center
+  display: flex
+  height: 100px
+  justify-content: center
+
+.img_centrado
+    margin: 0
+    width: 165%
+    max-width: 200%
+    margin-left: -94px
+    margin-top: -54px
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      width: 195%
+      margin-top: -59px
+    @media screen and ( max-width: 992px )
+      width: 100%
+      margin-left: -15px
+
+.height_Slyder-t1-2 
+  height: 284px!important
+
+.lista-ul li > i:first-of-type
+    top: 9px
+    margin-right: 3px
+
+.top_tarjavatar-t2
+  top: 35px!important
+
+.verticalLine 
+  border-left: solid 2px #0F2440
+
+.color_separador
+    border-bottom: solid 2px #0F2440!important
+  
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #191973 !important
+      color: #FFFFFF
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background: linear-gradient(0deg, rgba(246,249,254,100) 0%, rgba(237,234,254,100) 100%) 
+
+
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #191973
+      color: #FFFFFF
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background: linear-gradient(0deg, rgba(246,249,254,100) 0%, rgba(237,234,254,100) 100%) 

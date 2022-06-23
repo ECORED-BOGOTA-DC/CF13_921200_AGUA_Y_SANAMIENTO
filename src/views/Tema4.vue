@@ -11,10 +11,10 @@
 
     .row.justify-content-center.align-items-center
       .col-12.col-md-6
-        .cajon.color-primario.p-4.mb-4
+        .cajon.color-primario.p-4.mb-4(data-aos="fade-right")
           p De acuerdo con Bernal, O y Forero J, 2011, el marco legal muestra el contexto institucional a nivel gubernamental en el cual se desarrollan los sistemas de información de la salud en Colombia (p.88) Sin embargo, en este caso es importante definir y referenciar un término que es muy importante Salud Ambiental, de acuerdo con el Ministerio de Salud y Protección Social (s.f.) en su página web referencia que: 
         p.mb-4 La salud ambiental es un componente esencial de la salud pública que promueve la calidad de vida, donde el ser humano debe ser tomado en cuenta como un integrante más de los ecosistemas. Por lo tanto, los factores ambientales que pueden afectar la salud de nuestra población, no se reducen a los agentes físicos, químicos o biológicos; sino también, se deben incluir aquellos otros factores que afectan los ecosistemas; dentro de los cuales pueden mencionarse el cambio climático, la pérdida de la biodiversidad y la deforestación; los cuales influyen de forma directa o indirecta en la calidad de vida individual, familiar y colectiva. 
-      .col-12.col-md-6
+      .col-12.col-md-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/img01.png')
 
@@ -28,9 +28,9 @@
 
       .row.justify-content-center.mb-4
         .col-md-10
-          .tarjeta-color.bg_color10.p-4
+          .tarjeta-color.bg_color10.p-4(data-aos="fade-down")
             .row.justify-content-center.align-items-center
-              .col-md-5
+              .col-md-5.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema4/img03.png') 
               .col-md-6 
@@ -46,7 +46,7 @@
     .row.justify-content-center
       .col-12.col-md-10  
         .tarjeta--container.row.mb-5
-          .col-md.tarjeta.color-primario.p-5
+          .col-md.tarjeta.color-primario.p-5(data-aos="fade-right")
             .row.justify-content-center.mb-4
               .col-6
                 figure
@@ -55,7 +55,7 @@
             h4.text-center.mb-4 Decreto único reglamentario del sector salud<br>y protección social
             p.m-0.text-center Este es el denominado decreto 780 (2016): por medio del cual se expide el decreto único reglamentario del sector salud y protección social, en su parte 8 normas relativas a la salud pública, título VIII sistema de vigilancia en salud pública
             
-          .col-md.tarjeta.color-acento-botones.p-5
+          .col-md.tarjeta.color-acento-botones.p-5(data-aos="fade-left")
             .row.justify-content-center.mb-4
               .col-6
                 figure
@@ -64,7 +64,7 @@
             h4.text-center.mb-4 Decreto Único Reglamentario del Sector Ambiente<br>y Desarrollo Sostenible
             p.m-0.text-center Según el Ministerio de Ambiente y desarrollo sostenible (s.f.), el decreto 1076 del 26 de mayo de 2015, es una compilación de las normas expedidas por el gobierno nacional en cabeza del presidente de la república, la pretensión de esta iniciativa es recoger en un solo cuerpo normativo todos los decretos reglamentarios vigentes expedidos hasta la fecha, que desarrollan las leyes en materia ambiental.
 
-    .tarjeta.bg_color15.p-3
+    .tarjeta.bg_color15.p-3(data-aos="fade-up")
       p.m-0 En materia ambiental se compilaron en un solo decreto aproximadamente 1650 artículos que se encontraban dispersos en 84 decretos reglamentarios. El decreto contiene tres libros, el primero de ellos referente a la Estructura del sector ambiental, el segundo al régimen reglamentario del sector ambiente y el tercero a disposiciones finales.
       
     Separador
@@ -76,10 +76,10 @@
 
     SlyderE(indicadores="derecha").mb-4
       .row.align-items-center
-        .col-md-5.mb-4.mb-md-0
+        .col-md-5.mb-4.mb-md-0(data-aos="fade-right")
           p.m-0.mb-4 <b>Ley 9 (1979)</b>
           p.m-0 De acuerdo con García, C., García, J., y Vaca., M (2013) se creó el código sanitario nacional, adoptó un enfoque amplio de los aspectos que intervienen en la salud humana incluyendo elementos específicos en relación con la protección del medio ambiente, fundamentándose en la comprensión de que la relación del ser humano con su entorno ambiental es un determinante básico de la calidad de vida y la condición de salud (p.57)
-        .col-md-7
+        .col-md-7(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema4/img06.png', alt='Texto que describa la imagen')
 
@@ -168,7 +168,7 @@
           figure
             img(src='@/assets/curso/tema4/img16.png', alt='Texto que describa la imagen')
      
-    .tarjeta-color.bg_color3.p-4
+    .tarjeta-color.bg_color3.p-4(data-aos="fade-up")
       p.m-0 <b>Nota:</b> Este es un recuento muy general de algunas normas, siempre es relevante en el momento de realizar la revisión verificar el histórico de la legislación puntual que es requerida e indagar por las nuevas actualizaciones o derogaciones que apliquen.
       
     Separador
@@ -178,11 +178,11 @@
 
     p.m-0.mb-4 En materia ambiental se aplica el principio de rigor subsidiario consagrado en el artículo 63 de la Ley 99 (1993) el cual indica que: 
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img17.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p Principio de Rigor Subsidiario. Las normas y medidas de policía ambiental, es decir aquellas que las autoridades medioambientales expidan para la regulación del uso, manejo, aprovechamiento y movilización de los recursos naturales renovables, o para la preservación del medio ambiente natural, bien sea que limiten el ejercicio de derechos individuales y libertades públicas para la preservación o restauración del medio ambiente, o que exijan licencia o permiso para el ejercicio de determinada actividad por la misma causa, podrán hacerse sucesiva y respectivamente más rigurosas, pero no más flexibles, por las autoridades competentes del nivel regional, departamental, distrital o municipal, en la medida en que se desciende en la jerarquía normativa y se reduce el ámbito territorial de las competencias, cuando las circunstancias locales especiales así lo ameriten, en concordancia con el artículo 51 de la presente Ley. (Congreso de la República de Colombia, 1993)
 
     .row.justify-content-center.mb-4
@@ -197,17 +197,17 @@
     p.m-0.mb-4 Para establecer la normativa aplicable en el campo ambiental y de salud pública, se recomienda seguir los pasos establecidos por la construcción de una matriz de requisitos legales a través del procedimiento sugerido Rodríguez, F. (s.f.) de la secretaría de ambiente de Bogotá:  
 
     .row.justify-content-center.mb-5
-      .col-12.col-md-10
+      .col-12.col-md-10(data-aos="fade-down")
         figure
           img(src='@/assets/curso/tema4/img19.svg', alt='Texto que describa la imagen')
 
-    p.m-0 Usualmente las matrices legales de las organizaciones o entidades son desarrolladas en ese último paso de generación de un registro, el cual hace referencia a un documento donde quede consignado que base normativa fue identificada y si el proyecto o la organización lo cumple o no, para ello se realizan tablas con la siguiente información como mínimo:
+    p.m-0.mb-4.mb-md-0 Usualmente las matrices legales de las organizaciones o entidades son desarrolladas en ese último paso de generación de un registro, el cual hace referencia a un documento donde quede consignado que base normativa fue identificada y si el proyecto o la organización lo cumple o no, para ello se realizan tablas con la siguiente información como mínimo:
 
     .row.justify-content-center.align-items-center
-        .col-12.col-md-4
+        .col-12.col-md-4(data-aos="fade-right")
           figure.justify-center
             img(src="@/assets/curso/tema4/img20.svg") 
-        .col-12.col-md-8.mt-3
+        .col-12.col-md-8.mt-3(data-aos="fade-left")
           ol.lista-ol--cuadro.mt-4
             li 
               .lista-ol--cuadro__vineta

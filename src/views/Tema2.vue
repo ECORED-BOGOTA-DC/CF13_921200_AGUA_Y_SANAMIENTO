@@ -10,7 +10,7 @@
     .bg_fondo7
       .row.justify-content-center.mb-4
         .col-md-10
-          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
+          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-right")
             .bloque-texto-g__img(
               :style="{'background-image': `url(${require('@/assets/curso/tema2/img01.png')})`}"
             )
@@ -21,34 +21,34 @@
         .col-md-10
           p Con el fin de poder realizar revisiones y ajustes necesarios a los programas de salud es necesario hacer constante análisis y evaluación, donde se verifica si se están cumpliendo los objetivos para los cuales fue creado cada programa.
 
-      .row.justify-content-center.mb-4
-        .col-md-10
+      .row.justify-content-center.mb-3
+        .col-md-10(data-aos="fade-down")
           .tarjeta-color.bg_color10.p-4
             p.m-0 Las evaluaciones que se ejecuten deben tener una estructura definida y un proceso claro, así como una estructura sistemática y objetiva que minimicen al máximo el sesgo del evaluador, que permita ver el programa desde diferentes enfoques, entre los cuales están:
 
-      .row.justify-content-center.mb-5
-        .col-md-6.col-lg.mb-5.mb-lg-0
+      .row.justify-content-center
+        .col-md-6.col-lg.mb-3.mb-lg-0(data-aos="fade-right")
           .tarjeta-avatar.color
-            img.img92(src='@/assets/curso/tema2/img02.svg' alt='AvatarTop')
+            img.img92.top_tarjavatar-t2(src='@/assets/curso/tema2/img02.svg' alt='AvatarTop')
             .tarjeta.color.bg_color11
               .p-4
                 p.text-center Valoración sistemática y objetiva.
 
-        .col-md-6.col-lg.mb-5.mb-lg-0
+        .col-md-6.col-lg.mb-3.mb-lg-0(data-aos="fade-up")
           .tarjeta-avatar.color
-            img.img92(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop')
+            img.img92.top_tarjavatar-t2(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop')
             .tarjeta.color.bg_color11
               .p-4
                 p.text-center Uso de procedimientos científicos para investigar la efectividad de los programas.
 
-        .col-md-6.col-lg.mb-5.mb-lg-0
+        .col-md-6.col-lg.mb-3.mb-lg-0(data-aos="fade-left")
           .tarjeta-avatar.color
-            img.img92(src='@/assets/curso/tema2/img04.svg' alt='AvatarTop')
+            img.img92.top_tarjavatar-t2(src='@/assets/curso/tema2/img04.svg' alt='AvatarTop')
             .tarjeta.color.bg_color11
               .p-4
                 p.text-center Procedimientos para orientar la toma de decisiones en las diferentes fases de ejecución de un programa.
 
-        p.mb-4.mt-4 Álvarez, C (2014) en su manual de operación denominado el modelo de evaluación de programas de salud resalta también la importancia de la evaluación de las estrategias y programas de salud, visto que es una herramienta esencial para la toma de decisiones y el mejoramiento paulatino de los programas y sus estrategias.
+        p.mt-4 Álvarez, C (2014) en su manual de operación denominado el modelo de evaluación de programas de salud resalta también la importancia de la evaluación de las estrategias y programas de salud, visto que es una herramienta esencial para la toma de decisiones y el mejoramiento paulatino de los programas y sus estrategias.
         p Por lo cual, las personas que participen de un programa de salud deben estar ampliamente capacitados en técnicas de evaluación y deben ejecutarla a través de diferentes etapas.
 
     Separador
@@ -59,11 +59,11 @@
     p.mb-5 Álvarez, C. (2014) en su manual de operación respecto al modelo de evaluación de programas de salud, menciona que debido a los diferentes objetivos que pueden llegar a tener los programas de salud, es necesario tener enfoques que se adapten a la evaluación de esos objetivos al tiempo que se determina el alcance de los ítems a evaluar.
 
     .row.justify-content-center.mb-4
-      .col-12.col-md-4
+      .col-12.col-md-12
         p.text-center En general hay dos grandes corrientes de evaluación: 
 
     .row.justify-content-center.mb-5
-      .col-12.col-md-10
+      .col-12.col-md-10(data-aos="fade-down-right")
         figure
           img.img-fluid(src="@/assets/curso/tema2/img05.svg")
 
@@ -73,29 +73,31 @@
       .col-lg-10
         .tarjeta-avatar-b.tema2.mb-3
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/img06.svg' alt='AvatarTop' style= "height: 178px")
+            img(data-aos="fade-right")(src='@/assets/curso/tema2/img06.svg' alt='AvatarTop' style= "height: 178px")
           .tarjeta.color-acento-contenido
             .p-4
-              p.mb-2.mt-2 <b>Alcance global</b>
+              h4 Alcance global
               p Integra la medición de las necesidades de salud de una población, tiene en cuenta las políticas públicas a las cuales esa población está sujeta y al mismo tiempo evalúa si alguna vez se han desarrollado otros programas de salud con la comunidad.
     
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-10
         .tarjeta-avatar-b.tema2.mb-3
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/img07.svg' alt='AvatarTop' style= "height: 178px")
+            img(data-aos="fade-right")(src='@/assets/curso/tema2/img07.svg' alt='AvatarTop' style= "height: 178px")
           .tarjeta.color-acento-contenido
             .p-4
-              p.mb-2.mt-4 <b>Alcance operativo</b>
-              p.m-0 Se define la evaluación en términos de la estructura y los procesos de atención a la salud, los procesos para prestar el servicio y los equipos con los que se cuenta.
+              h4.mt-4.mt-md-0.mt-lg-0 Alcance operativo
+              p.mt-4.mt-md-0.mt-lg-0 Se define la evaluación en términos de la estructura y los procesos de atención a la salud, los procesos para prestar el servicio y los equipos con los que se cuenta.
 
+    Separador
+    
     #t_2_2.titulo-segundo.color-secundario(data-aos="zoom-out-right")
       h2 2.2.	Etapas del proceso de evaluación
 
     p.mb-4 Álvarez, C. (2014) en su manual de operación en referencia al modelo de evaluación de programas de salud, manifiesta en términos generales, que el proceso de evaluación de un programa o alguno de sus componentes, debe ser planeado y organizado cuidadosamente. Sin embargo, generalizando los procesos evaluativos se puede dividir en tres grandes etapas:  
 
     .row.justify-content-center.mb-5.pb-5
-      .col-12.col-md-10
+      .col-12.col-md-10(data-aos="fade-up-right")
         figure
           img.img-fluid(src="@/assets/curso/tema2/img08.svg")
 
@@ -104,7 +106,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 1. 
           span Etapas del proceso de evaluación
-        figure.mb-5
+        figure.mb-5(data-aos="fade-down")
           img.img-fluid(src="@/assets/curso/tema2/img09.svg")
         .tarjeta-color.bg_color3.mt-2
           .p-2
@@ -112,8 +114,8 @@
     
     .row.justify-content-center.mb-5
       .col-12.col-md-8
-        .tarjeta.bg_color12.p-2
-          p.text-center.text-white.px-5.mx-5.pt-3 A continuación, analicemos a profundad todos los procesos dentro de las etapas del proceso de evaluación:
+        .tarjeta.bg_color12.px-4.pt-3.pb-2
+          p.text-center.text-white(data-aos="fade-up") A continuación, analicemos a profundad todos los procesos dentro de las etapas del proceso de evaluación:
     
     ul.lista-ul.mb-5
       li 
@@ -121,10 +123,10 @@
         h3.ps-2 Diagnóstico del entorno del programa y definición de propósitos generales de la evaluación
 
     .row.justify.content-center.align.items-center.mb-5
-      .col-12.col-md-4
+      .col-12.col-md-4.mb-4.mb-md-0(data-aos="fade-right")
         figure
           img.img-fluid(src="@/assets/curso/tema2/img10.png")
-      .col-12.col-md-7.align-self-center
+      .col-12.col-md-7.align-self-center(data-aos="fade-left")
         .cajon-b.color-primario.p-2.mb-2
           p.mb-4 Realizar un diagnóstico del entorno del programa es un proceso que debe tener en cuenta varios lineamientos y diferentes puntos de vista para tener un concepto global y así poder establecer los propósitos generales de la evaluación.
           p En primera medida se realiza el reconocimiento del contexto de operación del programa y una vez reconocido se procede a determinar los propósitos, en caso de no hacer un reconocimiento del contexto se pueden plantear propósitos que no se pueden cumplir o que simplemente no se necesitan, esto genera costos innecesarios en los programas y retrasos en los tiempos de ejecución de propósitos que sí son necesarios.
@@ -135,18 +137,18 @@
         h3.ps-2 Reconocimiento del contexto de operación del programa
 
     .row.justify.content-center.align.items-center.mb-5
-      .col-12.col-md-7.align-self-center
+      .col-12.col-md-7.align-self-center.mb-4.mb-md-0(data-aos="fade-right")
           p.m-0 Esta actividad se considera la base de los programas en salud, es tan relevante que debe ser considerada antes de iniciar la planeación y desarrollo de las actividades de evaluación de programas. Dentro del reconocimiento se debe estudiar el programa y los posibles problemas que este puede presentar sobre todo en términos de operación. Debido a esto se deben realizar visitas de campo, entrevistas informales con trabajadores y beneficiarios, revisión de infraestructura y de ser necesario elaborar listado de requerimientos.
-      .col-12.col-md-5
+      .col-12.col-md-5(data-aos="fade-left")
         figure
           img.img-fluid(src="@/assets/curso/tema2/img11.png")
 
-    .bg_fondo8.mb-5
+    .bg_fondo8.mb-4
       .row.align-items-center
-        .col-12.col-md-4
+        .col-12.col-md-4.mb-4.mb-md-0(data-aos="fade-right")
           figure.justify-center
             img(src="@/assets/curso/tema2/img12.svg")        
-        .col-12.col-md-8
+        .col-12.col-md-8(data-aos="fade-left")
           p.m-0.me-4 Cuando la evaluación se hace sobre un propósito poblacional es necesario identificar las características de las localidades, los servicios de salud, los perfiles del personal, la infraestructura que incluye los centros de salud, archivos, consultorios, equipos y ver si todo está articulado en función de la comunidad. Por ejemplo, de nada serviría tener una infraestructura adecuada si el horario de atención no se ajusta a las necesidades poblacionales, o si esta no puede acceder al lugar porque no hay vías.
 
     ul.lista-ul.mb-4.pt-5
@@ -175,44 +177,44 @@
     p.m-0.mb-5 En este punto, de ser necesario, se deben incorporar programas de intervención, mecanismos de control de gestión, parámetros de comparación, seguimiento de objetivos, metas y actividades de los programas, entre otros instrumentos, por lo que la decisión del evaluador incide directamente en la calidad del programa.
 
     .row.justify-content-center.mb-4
-      .col-12.col-md-4
+      .col-12.col-md-12
         p.text-center El evaluador debe determinar a rasgos generales si:
 
-    .row.justify-content-center.align-items-center
-      .col-lg-5
-        .tarjeta-avatar-b.mb-5
+    .row.justify-content-center.align-items-center(data-aos="fade-right")
+      .col-lg-5.height_tarjavatar-b2-t2
+        .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop')
           .tarjeta.color.bg_color14
             .p-4
-              p.mt-4.text-center El programa es ambiguo o poco claro.
+              p.text-center.mt-2.mt-lg-4 El programa es ambiguo o poco claro.
 
-      .col-lg-5
-        .tarjeta-avatar-b.mb-5
+      .col-lg-5.height_tarjavatar-b2-t2
+        .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/img17.svg' alt='AvatarTop')
           .tarjeta.color.bg_color14
             .p-4
-              p.mt-4.text-center Las metas y actividades son precisas.
+              p.text-center.mt-2.mt-lg-4 Las metas y actividades son precisas.
 
-    .row.justify-content-center.align-items-center
-      .col-lg-5
+    .row.justify-content-center.align-items-center(data-aos="fade-left")
+      .col-lg-5.height_tarjavatar-b2-t2
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/img18.svg' alt='AvatarTop')
           .tarjeta.color.bg_color14
             .p-4
-              p.mt-4.text-center Los resultados adicionales a los objetivos son trascendentales.
+              p.text-center.mt-2.mt-lg-3 Los resultados adicionales a los objetivos son trascendentales.
 
-      .col-lg-5
+      .col-lg-5.height_tarjavatar-b2-t2
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/img19.svg' alt='AvatarTop')
           .tarjeta.color.bg_color14
             .p-4
-              p.mt-4.text-center Los recursos materiales y físicos están disponibles.
+              p.text-center.mt-2.mt-lg-3 Los recursos materiales y físicos están disponibles.
 
-    .bg_fondo10.mb-5
+    .bg_fondo10.mb-0.mb-md-4
       .row.justify-content-center.align-items-center(data-aos="zoom-in-up")
         .col-12.col-md-3
           figure.justify-center
@@ -250,10 +252,10 @@
 
     .bg_fondo11
       .row.align-items-center
-        .col-12.col-md-4.mt-4
-          figure
+        .col-12.col-md-4.mt-4.mb-4.mb-md-0
+          figure(data-aos="fade-right")
             img(src="@/assets/curso/tema2/img23.png") 
-        .col-12.col-md-7
+        .col-12.col-md-7(data-aos="fade-left")
           p.m-0.mb-4 Se recomienda que las preguntas de la evaluación cumplan con las siguientes características:
           ol.lista-ol--cuadro.mt-2.ms-3
             li 
@@ -280,24 +282,24 @@
 
     .row.justify-content-center
         .col-12.col-md-11
-          figure
+          figure(data-aos="fade-down")
             img(src="@/assets/curso/tema2/img24.png") 
           p.m-0.mb-4.mt-3 Una vez se definen los propósitos, el diseño metodológico es el cómo se van a realizar, para ello es necesario hacer diseño de estudio y planes de acción, definir los instrumentos y fuentes de información y organizar y ejecutar la supervisión del trabajo de campo.
 
-    ul.lista-ul.pt-5
+    ul.lista-ul.pt-5.mb-5
       li 
         <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
         h3.ps-2 Diseño de estudio y plan de acción
 
     .row.justify-content-center.align-items-center
       .col-12.col-md-8    
-        .bg_fondo12.mb-5
+        .bg_fondo12.mb-5(data-aos="fade-right")
           p Esta etapa permite definir los procedimientos de estudio, la selección de las personas que serán estudiadas y las variables e instrumentos con las que se realizará la recolección de información.
           p A través del diseño de estudio se busca maximizar la confiabilidad y validez de los datos al tiempo que se reducen los posibles errores en los resultados. Para ello se debe hacer un análisis estadístico en la cantidad de información a recolectar teniendo en cuenta principios como muestra, universo, nivel de confiabilidad, entre otros.
         p El diseño de estudio debe ir de la mano con el plan de acción donde se determina si se hará una sola medición o si es necesario que se realicen mediciones comparativas y longitudinales, por ejemplo, determinar si hay un medicamento disponible en un centro de salud requerirá de solo una medición, si se habla de eficiencia en gastos de atención en salud por paciente atendido requerirá la comparación con otros puntos de atención para determinar que en promedio se gasta la misma cantidad de recursos en un paciente de un punto A que en un paciente de un punto B. Finalmente si se habla de satisfacción de la atención es necesario hacer un estudio antes, durante y después de la prestación del servicio para garantizar la confiabilidad de los resultados.
       .col-12.col-md-4
-        figure
-          img.pb-5.pt-2(src="@/assets/curso/tema2/img26.svg") 
+        figure(data-aos="fade-left")
+          img.pb-4(src="@/assets/curso/tema2/img26.svg") 
 
     ul.lista-ul.mb-4.pt-5
       li 
@@ -306,7 +308,7 @@
 
     p.m-0.mb-5 La confiabilidad, precisión, exactitud y reproducibilidad de los datos obtenidos en cualquier evaluación dependen de los instrumentos con los que se realice y de las fuentes de información seleccionadas. Dada la importancia de este procedimiento es necesario realizarlo de forma técnica y precisa, para ello se pueden utilizar:
 
-    .row.mb-5
+    .row.mb-0.mb-md-5.mb-lg-5
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -347,10 +349,10 @@
 
     .bg_fondo13
       .row.align-items-center
-        .col-12.col-md-4
-          figure
+        .col-12.col-md-4.mb-4.mb-md-0
+          figure(data-aos="fade-right")
             img(src="@/assets/curso/tema2/img31.png") 
-        .col-12.col-md-8
+        .col-12.col-md-8(data-aos="fade-left")
           p.m-0 Cuando se van a realizar las actividades de evaluación es importante contar con un coordinador de equipo, que conduzca tanto las actividades técnicas como las administrativas a fin de optimizar tiempos, al igual es recomendable que haya investigadores de campo, estadistas e informáticos en el equipo, así como un administrador de recursos financieros.
           p.m-0.mb-4 Los resultados de la ejecución de la evaluación siempre deben presentarse en un informe técnico que incluye el nombre de las personas que realizaron el estudio, resumen de las actividades desarrolladas, introducción con antecedentes, objetivos claros, métodos explicados, resultados con interpretación, conclusiones y bibliografía.
 
