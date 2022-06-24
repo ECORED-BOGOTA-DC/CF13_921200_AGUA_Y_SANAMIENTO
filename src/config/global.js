@@ -157,139 +157,183 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Álvarez, C. H., Lara Esqueda, A., Torres Lepe, C., Covarruvias Ortiz, L. (2014). Modelo de evaluación de programas de salud: Manual de operación. Secretaría de Salud y Bienestar Social del Estado de Colima.',
+    },
+    {
+      referencia:
+        'Bernal, O y Forero J. (2011). Sistemas de información en el sector salud en Colombia. Revista gerencia política en salud. Bogotá. Colombia.',
+    },
+    {
+      referencia:
+        'Presidencia de la república de Colombia. (26 de mayo de 2015). Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible [Decreto 1076 de 2015].',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=78153',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Ministerio de Salud y Protección Social Decreto [Decreto 780 de 2016] Único Reglamentario del Sector Salud y Protección Social. Bogotá. Colombia. 6 de mayo 2016.',
+    },
+    {
+      referencia:
+        'García, C., García, J., y Vaca., M. (2013). Evolución del marco normativo de la salud ambiental en Colombia.',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Salud (INS). (2017). Lineamientos nacionales 2018 vigilancia y control en salud pública, Estrategia basada en casos predefinidos.',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (Diciembre de 1993) [Ley 99 de 1993].',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.habitatbogota.gov.co/transparencia/normatividad/normatividad/ley-99-1993#:~:text=Descripci%C3%B3n%3A,y%20se%20dictan%20otras%20disposiciones.',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Ley 100 de 1993. [Congreso de la República de Colombia]. Por la cual se crea el sistema de seguridad social integral y se dictan otras disposiciones. Bogotá. Colombia. 23 de diciembre de 1993.',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Ministerio de Ambiente y Desarrollo sostenible. (s.f.). Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.minambiente.gov.co/index.php/component/content/article/2093-plantilla-areas-planeacion-y-seguimiento-30',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Ministerio de Protección Social. (2004). Sistema de Seguridad Social en Salud. Ministerio de Protección Social.',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Ministerio de Salud. (7 de 2020). Cuadro de temas. Registro Único de Afiliados – RUAF. MINSALUD.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.minsalud.gov.co/proteccionsocial/Paginas/Registro%C3%9AnicodeAfiliados-RUAF.aspx#:~:text=El%20Registro%20%C3%9Anico%20de%20Afiliados,la%20red%20de%20protecci%C3%B3n%20social%2C',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Ministerio de Salud. (17 de 7 de 2020). Planilla Integrada de Liquidación de Aportes. MINSALUD.',
+      link: 'https://www.minsalud.gov.co/proteccionsocial/Paginas/pila.aspx',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Ministerio de Salud. (2015). Preguntas frecuentes RIPS. MINSALUD.',
+    },
+    {
+      referencia:
+        'Ministerio de Salud. (18 de 7 de 2020). SIHO - Sistema de Gestión Hospitalaria. MINSALUD.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.sispro.gov.co/central-prestadores-de-servicios/Pages/SIHO-Sistema-de-gestion-hospitalaria.aspx',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (15 de 7 de 2020). Glosario. MINSALUD.',
+      link: 'https://www.minsalud.gov.co/salud/Paginas/Glosario.aspx',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2016). Política de atención integral en salud "Un sistema de Salud al servicio de la gente". Ministerio de Salud y Protección Social.',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2017). PROGRAMA DE ELEMENTOS DE PROTECCIÓN PERSONAL, USO Y MANTENIMIENTO. Ministerio de Salud y Protección Social.',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (s.f.). Salud Ambiental.',
+      link: 'https://www.minsalud.gov.co/salud/Paginas/Salud-ambiental.aspx',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (16 de 7 de 2020). SISMED - Sistema de Información de Precios de Medicamentos. MINSALUD.',
+      link:
+        'https://www.sispro.gov.co/central-prestadores-de-servicios/Pages/SISMED-Sistema-de-Informacion-de-Precios-de-Medicamentos.aspx#:~:text=El%20Sistema%20de%20Informaci%C3%B3n%20de,lucha%20contra%20la%20pobreza%20y',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (s.f.). Sistema Integrado de Información de la Protección Social (SISPRO).',
+      link: ' https://www.sispro.gov.co/Pages/Home.aspx',
+    },
+    {
+      referencia:
+        'Naranjo, M (2006). Evaluación de programas de salud. Revista Comunidad y Salud vol.4 no.2 Maracay dic.',
+      link:
+        'http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1690-32932006000200005',
+    },
+    {
+      referencia:
+        'Resolución 1536 de 2015. [Ministerio de Salud y Protección Social]. Por la cual se establecen disposiciones sobre el proceso de planeación integral para la salud. Bogotá. Colombia. 11 de mayo de 2015.',
+    },
+    {
+      referencia:
+        'Resolución 518 de 2015. [Ministerio de Salud y Protección Social]. Por la cual se dictan disposiciones en relación con la Gestión de la Salud Pública y se establecen directrices para la ejecución, seguimiento y evaluación del Plan de Salud Pública de Intervenciones Colectivas – Pie. Bogotá. Colombia. 24 de febrero de 2015.',
+    },
+    {
+      referencia:
+        'Rodríguez, F. (s.f.). Matriz de requisitos legales. Programa de gestión ambiental empresarial. Secretaria Distrital de Ambiente (SDA). Bogotá. Colombia.',
+    },
+    {
+      referencia:
+        'Secretaría Distrital de Ambiente. (2015). Matriz de Requisitos Legales. Secretaría Distrital de Ambiente.',
+    },
+    {
+      referencia:
+        'Zapata, J. (2013).  Las reformas hospitalarias en los sistemas de salud en años recientes – un acercamiento al caso colombiano. Banco interamericano de desarrollo y centro de investigación económica y social.',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Afiliación',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Es el procedimiento mediante el cual los potenciales beneficiarios del Régimen Subsidiado y su núcleo familiar se vinculan al Sistema General de Seguridad Social en Salud. (Ministerio de Salud y Protección Social, 2020)',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Contrarreferencia',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es la respuesta que las IPS receptoras de la referencia, dan al organismo o la unidad familiar. La respuesta puede ser la contra remisión del usuario con las debidas indicaciones a seguir o, simplemente, la información sobre la atención recibida por el usuario en una institución receptora, o el resultado de las solicitudes de ayuda diagnóstica. (Ministerio de Salud y Protección Social, 2020)',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Empresa social del Estado ESE',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Las Empresas Sociales del Estado constituyen una categoría especial de entidad pública, descentralizada, con personería jurídica, patrimonio propio y autonomía administrativa, creadas o reorganizadas por ley o por las asambleas o concejos. (Ministerio de Salud y Protección Social, 2020)',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Instituciones Prestadoras de Servicios de Salud IPS',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Son las Instituciones encargadas de prestar los servicios de salud en su nivel de atención correspondiente a los afiliados y beneficiarios dentro de los parámetros y principios señalados en la presente Ley. (Ministerio de Salud y Protección Social, 2020)',
     },
     {
-      termino: 'Moda',
+      termino: 'Remisión',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Envío de usuarios o elementos de ayuda diagnóstica por parte de las IPS a otras IPS para atención o complementación diagnóstica, que, de acuerdo con el grado de complejidad, den respuesta a las necesidades de salud. (Ministerio de Salud y Protección Social, 2020)',
     },
     {
-      termino: 'Diseña',
+      termino: 'Sistema general de seguridad social en salud SGSSS',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'El Sistema de Seguridad Social en Salud (SGSSS) es la forma como se brinda un seguro que cubre los gastos de salud a los habitantes del territorio nacional, colombianos y extranjeros. (Ministerio de la protección social, 2004)',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      tema: 'Modelo de evaluación de programas de salud.',
+      referencia:
+        'Álvarez, C & Lara, A. (2014). Modelo de evaluación de programas de salud. Manual de operación.',
+      tipo: 'Manual gubernamental',
+      link:
+        'https://drive.google.com/file/d/1-qSTXZU9ueh1T0kFA0LVoDxP6quEQdIv/view?usp=sharing',
     },
     {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Política de Atención Integral en Salud.',
+      referencia:
+        'Ministerio de Salud y Protección Social. (2016). Política de Atención Integral en Salud.',
+      tipo: 'Política pública',
+      link:
+        'https://drive.google.com/file/d/1Mg4s6DkZFXpX_VaDUOo6KdYUb0GteJmv/view?usp=sharing',
     },
     {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      tema: 'Programa de gestión ambiental empresarial.',
+      referencia:
+        'Rodríguez, F. (s.f.). Matriz de requisitos legales. Programa de gestión ambiental empresarial. Secretaria Distrital de Ambiente (SDA). Bogotá. Colombia.',
+      tipo: 'Presentaciones',
+      link:
+        'http://ambientebogota.gov.co/c/document_library/get_file?uuid=fb013cd6-e4c9-44f9-a78a-8db98e308d9a&groupId=24732',
     },
   ],
   creditos: {
@@ -305,7 +349,40 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Sandra Patricia  Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Sergio Arturo Medina Castillo',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cardenas',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro de diseño y metrologia - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Jesus Ricardo Arias Munevar',
+        cargo: 'Instructor Ambiental',
+        centro: 'Centro de gestión industrial - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Xiomara Becerra Aldana',
+        cargo: 'Instructora Ambiental',
+        centro: 'Centro de gestión industrial - Regional Distrito Capital ',
       },
     ],
     desarrolloProducto: [
@@ -313,36 +390,41 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Sofia Suarez Suarez',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Daniel Mutis',
+        cargo: 'Validación de diseño',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Marcia Elizabeth Solano Álvarez',
         cargo: 'Desarrollo Front-End',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Juan Daniel Polanco',
+        cargo: 'Validación Maquetación',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
     gestoresRepositorio: [
