@@ -20,7 +20,9 @@
 
     p.m-0.mb-4 Luego en la búsqueda de normatividad aplicable a salud pública también debe ser analizada la normatividad en temas de ambiente. 
 
-    #t_4_1.titulo-segundo.color-secundario.pt-4(data-aos="zoom-out-right")
+    Separador
+
+    #t_4_1.titulo-segundo.color-acento-contenido.pt-4(data-aos="zoom-out-right")
       h2 4.1.	Normatividad de importancia
 
     .bg_fondo15
@@ -69,7 +71,7 @@
       
     Separador
 
-    #t_4_2.titulo-segundo.color-secundario.pt-4(data-aos="zoom-out-right")
+    #t_4_2.titulo-segundo.color-acento-contenido.pt-4(data-aos="zoom-out-right")
       h2 4.2.	Otras normas
 
     p.m-0.mb-5 El marco normativo del país en relación con salud pública y medio ambiente es de gran extensión, su análisis debe ser particular, es decir, en el momento de requerir se debe realizar una búsqueda exhaustiva de la información para analizarla, sin embargo, se resaltan algunas:
@@ -173,7 +175,7 @@
       
     Separador
 
-    #t_4_3.titulo-segundo.color-secundario.pt-4(data-aos="zoom-out-right")
+    #t_4_3.titulo-segundo.color-acento-contenido.pt-4(data-aos="zoom-out-right")
       h2 4.3.	Principio de rigor subsidiario
 
     p.m-0.mb-4 En materia ambiental se aplica el principio de rigor subsidiario consagrado en el artículo 63 de la Ley 99 (1993) el cual indica que: 
@@ -191,16 +193,48 @@
     
     Separador
 
-    #t_4_4.titulo-segundo.color-secundario.pt-4(data-aos="zoom-out-right")
+    #t_4_4.titulo-segundo.color-acento-contenido.pt-4(data-aos="zoom-out-right")
       h2 4.4.	Matriz legal ambiental
 
-    p.m-0.mb-4 Para establecer la normativa aplicable en el campo ambiental y de salud pública, se recomienda seguir los pasos establecidos por la construcción de una matriz de requisitos legales a través del procedimiento sugerido Rodríguez, F. (s.f.) de la secretaría de ambiente de Bogotá:  
+    p.mb-5 Para establecer la normativa aplicable en el campo ambiental y de salud pública, se recomienda seguir los pasos establecidos por la construcción de una matriz de requisitos legales a través del procedimiento sugerido Rodríguez, F. (s.f.) de la secretaría de ambiente de Bogotá:  
 
-    .row.justify-content-center.mb-5
-      .col-12.col-md-10(data-aos="fade-down")
-        figure
-          img(src='@/assets/curso/tema4/img19.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.align-items-center
+      .col-12.col-md-10.col-lg-10col.xl-10
+        .row.mb-5.justify-content-evenly(data-aos="zoom-in-down").medidas_tarjetas-t4-4.medida_numero-t4-4 
+          .col-md-4.col-xl-4.mb-4.mb-xl-0
+            .tarjeta-numerada.color-primario.p-4.mb-5 
+              .tarjeta-numerada__numero.num_1
+                .h2.numero 1
+              p.m-0.text-center.flex-center-text Definir responsables.
 
+            .tarjeta-numerada.color-primario.p-4.mb-5
+              .tarjeta-numerada__numero.num_1
+                .h2.numero 2
+              p.text-center.flex-center-text.ms-2 Identificación de legislación, requisitos legales y otros requisitos (teniendo en cuenta el principio de rigor subsidiario”)
+
+            .tarjeta-numerada.color-primario.p-4.mb-5
+              .tarjeta-numerada__numero.num_1
+                .h2.numero 3
+              p.text-center.flex-center-text.ms-2 Definir periodicidad de revisión y actualización.
+          .col-md-3.col-xl-3.mb-3.mb-xl-0
+            figure
+              img.img_tar-num.mb-4.mb-md-0(src='@/assets/curso/tema4/img18.svg')
+          .col-md-4.col-xl-4.mb-4.mb-xl-0
+            .tarjeta-numerada.color-primario.p-4.mb-5
+              .tarjeta-numerada__numero.num_1
+                .h2.numero 4
+              p.text-center.flex-center-text.ms-2 Definir canales y mecanismos de distribución y comunicación.
+
+            .tarjeta-numerada.color-primario.p-4.mb-5
+              .tarjeta-numerada__numero.num_1
+                .h2.numero 5
+              p.text-center.flex-center-text.ms-2 Metodología de evaluación del grado de cumplimiento de cada requisito legal.
+
+            .tarjeta-numerada.color-primario.p-4
+              .tarjeta-numerada__numero.num_1
+                .h2.numero 6
+              p.text-center.flex-center-text Generación de un registro. (p. 4)
+    
     p.m-0.mb-4.mb-md-0 Usualmente las matrices legales de las organizaciones o entidades son desarrolladas en ese último paso de generación de un registro, el cual hace referencia a un documento donde quede consignado que base normativa fue identificada y si el proyecto o la organización lo cumple o no, para ello se realizan tablas con la siguiente información como mínimo:
 
     .row.justify-content-center.align-items-center

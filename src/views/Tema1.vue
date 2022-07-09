@@ -40,7 +40,7 @@
 
     Separador
 
-    #t_1_1.titulo-segundo.color-secundario(data-aos="zoom-out-right")
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 1.1.	Marco estratégico de la Política de Atención Integral en Salud (PAIS)
 
     p.mb-4 La transformación del modelo institucional de la Ley 100 (1993) a los objetivos de un sistema de salud centrado en la población y sus relaciones a nivel familiar y comunitario está contenida en la política de atención integral en salud. Esta transformación incluye las estrategias e instrumentos que permiten hacer el cambio. En términos globales existen cuatro estrategias, las cuales son: 
@@ -116,7 +116,7 @@
                   img.mt-5(src='@/assets/curso/tema1/img10.svg')
     Separador
 
-    #t_1_2.titulo-segundo.color-secundario(data-aos="zoom-out-right")
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 1.2.	Modelo Integral de Atención en Salud (MIAS)
 
     .row.justify.content-center.align.items-center
@@ -143,7 +143,7 @@
     .bg_fondo1.mb-4
       .row.align-items-center(data-aos="zoom-in-up")
         .col-12.col-md-3
-          figure.justify-center
+          figure.justify-center.mb-4.mb-md-0
             img(src="@/assets/curso/tema1/img16.png")        
         .col-12.col-md-8
           p.m-0 La organización de las poblaciones tiene dos enfoques, el primero es el curso de vida que ubica en el centro a las personas, familias y comunidades, permitiendo entender las relaciones dinámicas, las experiencias acumulativas y cómo estas impactan en la salud. 
@@ -364,7 +364,7 @@
     
     .row.justify-content-center.mb-4
       .col-12.col-md-4(data-aos="fade-right")
-        figure
+        figure.mb-4.mb-md-0
           img(src='@/assets/curso/tema1/img37.svg')
       .col-12.col-md-8(data-aos="fade-left")
         p.mb-4 Cada territorio tiene necesidades particulares, por eso la operación del Modelo Integral de Atención en Salud (MIAS) debe adaptarse a las diferentes condiciones, no solo desde un punto de vista físico, sino que se deben incluir las características sociales, geográficas, étnicas y de género.
@@ -552,27 +552,27 @@
     .row.justify-content-center
       .col-md-10(data-aos="fade-up")
         LineaTiempoD.color-secundario.mb-5
-          .row(numero="1" titulo="La formación del Recurso Humano en Salud (RHS)")
-            .col-md-12.mb-4.mb-md-0.px-4
-              figure
+          .row(numero="1" titulo="La formación del Recurso Humano en Salud (RHS)")    
+            .col-md-12.px-md-4       
+              figure.mt-0.mt-md-3
                 img(src='@/assets/curso/tema1/img53.png', alt='Texto que describa la imagen')
               p.mt-4 Es una tarea que exige un proceso explícito, debe incluir cambio en procesos académicos, fortalecimiento de gremios, fortalecimiento de entidades territoriales, coordinación con la población, prestadores y aseguradores. Para tener resultados a corto plazo se realizan acciones de formación continua que ayuda a mejorar el servicio de salud principalmente en el nivel primario. A mediano plazo se abren programas de especializaciones y posgrados en medicina y salud familiar, también se forman médicos en diferentes territorios del país. A largo plazo se ajustan planes curriculares de formación de recurso humano en el sector salud y se evalúan la calidad y pertinencia de esos programas para el mejoramiento continuo.  
 
           .row(numero="2" titulo="La armonización del Recurso Humano en Salud (RHS)")
-            .col-md-12.mb-4.mb-md-0.px-4
-              figure
+            .col-md-12.px-md-4
+              figure.mt-0.mt-md-3
                 img(src='@/assets/curso/tema1/img54.png', alt='Texto que describa la imagen')
               p.mt-4 Con el esquema de cuidado integral y provisión de servicios: se desarrollan equipos multidisciplinarios en salud y se diseñan nuevos perfiles como promotores de salud, parteras, líderes comunitarios entre otros, de modo que se genere un desarrollo progresivo en los modelos territoriales de salud, de acuerdo con las orientaciones del Modelo Integral de Atención en Salud (MIAS).
 
           .row(numero="3" titulo="El fortalecimiento del Recurso Humano en Salud (RHS)")
-            .col-md-12.mb-4.mb-md-0.px-4
-              figure
+            .col-md-12.px-md-4
+              figure.mt-0.mt-md-3
                 img(src='@/assets/curso/tema1/img55.png', alt='Texto que describa la imagen')
               p.mt-4 Responsable de la planeación y gestión territorial en salud: es la definición participativa de las competencias que exige la implementación del Modelo Integral de Atención en Salud (MIAS) a nivel de la administración, gestión, gerencia y planeación en salud.
 
           .row(numero="4" titulo="Gestión")
-            .col-md-12.mb-4.mb-md-0.px-4
-              figure
+            .col-md-12.px-md-4
+              figure.mt-0.mt-md-3
                 img(src='@/assets/curso/tema1/img56.png', alt='Texto que describa la imagen')
               p.mt-4 Planificación y mejoramiento de condiciones laborales del Recurso Humano en Salud (RHS) a nivel nacional y territorial.
 

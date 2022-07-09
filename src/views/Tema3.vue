@@ -23,7 +23,7 @@
 
     Separador
 
-    #t_3_1.titulo-segundo.color-secundario(data-aos="zoom-out-right")
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 3.1.	Clasificación de los sistemas de recolección de información
 
     p.m-0.mb-4 Teniendo en cuenta que las organizaciones del sector salud, dependiendo de donde provienen sus recursos se subdividen en públicas y privadas, de la misma forma se podría hacer una primera aproximación de la clasificación de los sistemas de recolección:  
@@ -48,7 +48,7 @@
 
     Separador
 
-    #t_3_2.titulo-segundo.color-secundario(data-aos="zoom-out-right")
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 3.2.	Instrumentos de recolección de información existentes en Colombia
 
     p.m-0.mb-4 Aunque no todas las entidades prestadoras de servicios de salud pertenecen al estado, si todas están en la obligación de informar y reportar todas las variables que sean de especial seguimiento y que son determinadas por el Ministerio de Salud. 

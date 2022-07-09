@@ -53,7 +53,7 @@
 
     Separador
 
-    #t_2_1.titulo-segundo.color-secundario(data-aos="zoom-out-right")
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 2.1.	Enfoques y alcances de evaluación
 
     p.mb-5 Álvarez, C. (2014) en su manual de operación respecto al modelo de evaluación de programas de salud, menciona que debido a los diferentes objetivos que pueden llegar a tener los programas de salud, es necesario tener enfoques que se adapten a la evaluación de esos objetivos al tiempo que se determina el alcance de los ítems a evaluar.
@@ -91,7 +91,7 @@
 
     Separador
     
-    #t_2_2.titulo-segundo.color-secundario(data-aos="zoom-out-right")
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 2.2.	Etapas del proceso de evaluación
 
     p.mb-4 Álvarez, C. (2014) en su manual de operación en referencia al modelo de evaluación de programas de salud, manifiesta en términos generales, que el proceso de evaluación de un programa o alguno de sus componentes, debe ser planeado y organizado cuidadosamente. Sin embargo, generalizando los procesos evaluativos se puede dividir en tres grandes etapas:  

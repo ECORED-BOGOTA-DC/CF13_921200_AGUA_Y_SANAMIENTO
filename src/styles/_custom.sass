@@ -408,8 +408,43 @@ hr:not([size])
     max-width: 232px
     max-height: 172px
 
+.medidas_tarjetas-t4-4
+  .tarjeta-numerada 
+    border-radius: 15px
+    border: solid 3px
+    position: relative
+    margin-left: -4%
+    height: 123px
+    max-width: 360px
+    width: 345px
+    @media screen and ( max-width: 992px )
+      margin-left: 10%
+      width: 280px
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      margin-left: 7%
+      width: 270px
+
+.img_tar-num 
+    max-width: 270px
+    width: 265px
+    margin-left: -9%
+    margin-top: -6%
+    @media screen and ( max-width: 992px )
+      margin-left: 12%
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      margin-top: -8%
+
 .tarjeta-numerada.color-primario .tarjeta-numerada__numero 
     background-color: #4C4BF0
+
+.medida_numero-t4-4
+  .tarjeta-numerada__numero 
+    background-color: #0F2771!important
+    border-radius: 50px
+    width: 57px
+    height: 57px
+    top: 25%
+    font-size: 1.6em
 
 .tarjeta--azul 
     background-color: #EDEAFE
@@ -660,7 +695,7 @@ hr:not([size])
 .flex-center-text
   align-items: center
   display: flex
-  height: 100px
+  height: 100%
   justify-content: center
 
 .img_centrado
@@ -713,3 +748,9 @@ hr:not([size])
 
 .banner-interno__fondo
   background-image: url('../assets/curso/portada/banner-interno.png')!important
+
+.linea-tiempo-d__item__content__title
+    height: 40px
+    @media screen and ( max-width: 992px )
+      height: 68px
+

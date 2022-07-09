@@ -12,7 +12,7 @@
             p.mb-5(v-html="globalData.descripcionCurso")
         .banner-principal__accion
           router-link.boton.mt-2(:to="{name: iniciarLnk.nombreRuta }")
-            span.me-1 Iniciar
+            span.me-1 Ver más
             i.fas.fa-angle-right
 
       .d-none.d-lg-block.col-lg-5.px-5.banner-principal__img
