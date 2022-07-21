@@ -156,37 +156,37 @@
           .tarjeta-numerada.color-primario.p-5.mb-4.mb-md-0
             .tarjeta-numerada__numero
               .h1 1
-            p.text-center Grupos sociales de riesgo.
+            p.text-center.flex-center-text Grupos sociales de riesgo.
 
         .col-md-3
           .tarjeta-numerada.color-primario.p-5.mb-4.mb-md-0
             .tarjeta-numerada__numero
               .h1 2
-            p.text-center.m_block Enfermedades de alta frecuencia y cronicidad.
+            p.text-center.m_block.flex-center-text Enfermedades de alta frecuencia y cronicidad.
 
         .col-md-3
           .tarjeta-numerada.color-primario.p-5
             .tarjeta-numerada__numero
               .h1 3
-            p.text-center.m_block Enfermedades prioritarias en salud pública.
+            p.text-center.m_block.flex-center-text Enfermedades prioritarias en salud pública.
       .row.mb-5.justify-content-evenly(data-aos="fade-left")
         .col-md-3
           .tarjeta-numerada.color-primario.p-5.mb-4.mb-md-0
             .tarjeta-numerada__numero
               .h1 4
-            p.text-center.m_block Enfermedades con tratamientos de alto costo.
+            p.text-center.m_block.flex-center-text Enfermedades con tratamientos de alto costo.
 
         .col-md-3
           .tarjeta-numerada.color-primario.p-5.mb-4.mb-md-0
             .tarjeta-numerada__numero
               .h1 5
-            p.text-center.m_block Condiciones intolerables para la sociedad.
+            p.text-center.m_block.flex-center-text Condiciones intolerables para la sociedad.
 
         .col-md-3
           .tarjeta-numerada.color-primario.p-5
             .tarjeta-numerada__numero
               .h1 6
-            p.text-center Enfermedades de alto costo.
+            p.text-center.flex-center-text Enfermedades de alto costo.
 
       .row.mb-5.justify-content-center
         .col-12.col-md-7
@@ -212,9 +212,9 @@
 
     .bg_fondo3.mb-5
       .row.align-items-center(data-aos="zoom-in-up")
-        .col-12.col-md-7.mt-4
+        .col-lg-7.mt-5
           p.m-0 Las Rutas Integrales de Atención en Salud (RIAS) son un instrumento regulatorio básico que permite la atención de las prioridades en salud, tienen un objetivo social que es la ganancia en salud y la disminución de la carga de enfermedad. Así mismo, son herramientas que definen las condiciones necesarias para asegurar la integralidad en la atención. Se tienen en cuenta varios factores entre los que se encuentran el autocuidado, la promoción del bienestar y el desarrollo de los individuos, así como las intervenciones para la prevención, diagnóstico, tratamiento, rehabilitación de la discapacidad y paliación. 
-        .col-12.col-md-5
+        .col-lg-5
           figure.justify-center
             img(src="@/assets/curso/tema1/img21.svg")        
 
@@ -235,25 +235,25 @@
     p.m-0.mb-4.pt-4 Entre otras características de Rutas Integrales de Atención en Salud (RIAS)
 
     .row.justify-content-center.align-items-center
-      .col-md-3(data-aos="fade-right")
+      .col-lg-3(data-aos="fade-right")
         figure
           img.d-none.d-lg-block(src="@/assets/curso/tema1/img22.svg")
-      .col-md-6(data-aos="fade-left") 
+      .col-lg-6(data-aos="fade-left") 
           ol.lista-ol--cuadro.lista-ol--separador.Lista_t1-2
             li 
               .lista-ol
             li 
               .lista-ol--cuadro__vineta
-                span 1
-              p.mt-3.mb-4 Documentan, monitorean y evalúan los resultados y las diferencias
+                span.t_num_lista-t1 1
+              p.mt-3 Documentan, monitorean y evalúan los resultados y las diferencias
             li 
               .lista-ol--cuadro__vineta.width_num2
-                span 2
-              p.mt-2 Facilitan la identificación de los recursos humanos, de infraestructura y financieros apropiados
+                span.t_num_lista-t1 2
+              p Facilitan la identificación de los recursos humanos, de infraestructura y financieros apropiados
             li
               .lista-ol--cuadro__vineta.width_num3
-                span 3
-              p.mt-2 Describen explícitamente los elementos clave de la atención basada en la evidencia, las mejores prácticas, y las expectativas de los usuarios
+                span.t_num_lista-t1 3
+              p Describen explícitamente los elementos clave de la atención basada en la evidencia, las mejores prácticas, y las expectativas de los usuarios
             li    
 
     Separador
@@ -280,36 +280,36 @@
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img29.svg' alt='AvatarTop' style= "height: 110px")(data-aos="fade-right")
-          .tarjeta.tarjeta--azul(data-aos="fade-left")
+          .tarjeta.tarjeta--azul(data-aos="fade-left").flex-center-text 
             .p-4
-              p.flex-center-text Identificar y ponderar los riesgos de salud pública, priorizar grupos de riesgo y armonizar los diferentes actores.
+              p Identificar y ponderar los riesgos de salud pública, priorizar grupos de riesgo y armonizar los diferentes actores.
     
     .row.justify-content-center
       .col-lg-8.height_tarjavatar-b1-t1
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img30.svg' alt='AvatarTop' style= "height: 110px")(data-aos="fade-right")
-          .tarjeta.tarjeta--azul(data-aos="fade-left")
+          .tarjeta.tarjeta--azul(data-aos="fade-left").flex-center-text 
             .p-4
-              p.flex-center-text Recolección y análisis de evidencias sobre la detección del riesgo.
+              p Recolección y análisis de evidencias sobre la detección del riesgo.
     
     .row.justify-content-center
       .col-lg-8.height_tarjavatar-b1-t1
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img31.svg' alt='AvatarTop' style= "height: 110px")(data-aos="fade-right")
-          .tarjeta.tarjeta--azul(data-aos="fade-left")
+          .tarjeta.tarjeta--azul(data-aos="fade-left").flex-center-text 
             .p-4
-              p.flex-center-text Desarrollar y adaptar las Rutas Integrales de Atención en Salud (RIAS).
+              p Desarrollar y adaptar las Rutas Integrales de Atención en Salud (RIAS).
     
     .row.justify-content-center
       .col-lg-8.height_tarjavatar-b1-t1
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img32.svg' alt='AvatarTop' style= "height: 110px")(data-aos="fade-right")
-          .tarjeta.tarjeta--azul(data-aos="fade-left")
+          .tarjeta.tarjeta--azul(data-aos="fade-left").flex-center-text 
             .p-4
-              p.flex-center-text Identificar circunstancias que inciden en la aparición de la enfermedad.
+              p Identificar circunstancias que inciden en la aparición de la enfermedad.
 
 
     p.mb-5 La Gestión Integral del Riesgo de Salud (GIRS) requiere de la participación de varios agentes entre los cuales se encuentran:
