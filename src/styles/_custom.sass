@@ -523,10 +523,6 @@ hr:not([size])
 .tarjeta.color-acento-contenido 
     background: linear-gradient(0deg, rgba(209,213,226,100) 0%, rgba(235,235,238,100) 100%) 
     border-radius: 21px
-
-.text-black
-  @media screen and ( max-width: 420px  )
-    color: $black 
     
 .tarjeta.color-primario 
     background-color: #D1E4FA
@@ -754,3 +750,24 @@ hr:not([size])
     @media screen and ( max-width: 992px )
       height: 68px
 
+.m_block
+  margin-block: auto
+  margin-top: 0px
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    margin-top: -18%
+
+.m_block2
+  margin-block: auto
+
+.contenido-centrado
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+.m-top2
+  margin-top: -3%
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    margin-top: 8%
+  @media screen and ( max-width: 992px )
+    margin-top: 2%
+    margin-inline: 6%

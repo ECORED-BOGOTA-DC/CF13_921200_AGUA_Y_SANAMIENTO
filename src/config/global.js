@@ -17,7 +17,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Política de atención integral en salud.',
+        titulo: 'Política de atención integral en salud',
         desarrolloContenidos: true,
         subMenu: [
           {

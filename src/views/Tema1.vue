@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido    
       .titulo-principal__numero
         span.text-white 1
-      h1 Política de atención integral en salud.
+      h1 Política de atención integral en salud
 
     .row.justify.content-center.align.items-center
       .col-md-6
@@ -162,25 +162,25 @@
           .tarjeta-numerada.color-primario.p-5.mb-4.mb-md-0
             .tarjeta-numerada__numero
               .h1 2
-            p.text-center Enfermedades de alta frecuencia y cronicidad.
+            p.text-center.m_block Enfermedades de alta frecuencia y cronicidad.
 
         .col-md-3
           .tarjeta-numerada.color-primario.p-5
             .tarjeta-numerada__numero
               .h1 3
-            p.text-center Enfermedades prioritarias en salud pública.
+            p.text-center.m_block Enfermedades prioritarias en salud pública.
       .row.mb-5.justify-content-evenly(data-aos="fade-left")
         .col-md-3
           .tarjeta-numerada.color-primario.p-5.mb-4.mb-md-0
             .tarjeta-numerada__numero
               .h1 4
-            p.text-center Enfermedades con tratamientos de alto costo.
+            p.text-center.m_block Enfermedades con tratamientos de alto costo.
 
         .col-md-3
           .tarjeta-numerada.color-primario.p-5.mb-4.mb-md-0
             .tarjeta-numerada__numero
               .h1 5
-            p.text-center Condiciones intolerables para la sociedad.
+            p.text-center.m_block Condiciones intolerables para la sociedad.
 
         .col-md-3
           .tarjeta-numerada.color-primario.p-5
@@ -245,7 +245,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 1
-              p.mt-3.mb-4 Documentan, monitorean y evalúan los resultados y las diferencias.
+              p.mt-3.mb-4 Documentan, monitorean y evalúan los resultados y las diferencias
             li 
               .lista-ol--cuadro__vineta.width_num2
                 span 2
@@ -265,11 +265,11 @@
     
     .bg_fondo4.mb-4
       .row.align-items-center(data-aos="zoom-in-up")
-        .col-12.col-md-4.col-lg-4
+        .col-lg-4
           figure
-            img.mt-3(src="@/assets/curso/tema1/img28.png")        
-        .col-12.col-md-7.col-lg-7.text-black
-          p.m-0.text-white.mb-4.ms-3 Es necesaria la coordinación, monitoreo y ajuste de todas las acciones planificadas en las Rutas Integrales de Atención en Salud (RIAS) debido a esto nace la Gestión Integral del Riesgo en Salud (GIRS) que busca anticiparse a la ocurrencia de los eventos de interés en salud pública, prevenir las enfermedades, así como las discapacidades producidas por estas.
+            img.mt-4.img-t(src="@/assets/curso/tema1/img28.png")        
+        .col-lg-7
+          p.text-white.m-top2 Es necesaria la coordinación, monitoreo y ajuste de todas las acciones planificadas en las Rutas Integrales de Atención en Salud (RIAS) debido a esto nace la Gestión Integral del Riesgo en Salud (GIRS) que busca anticiparse a la ocurrencia de los eventos de interés en salud pública, prevenir las enfermedades, así como las discapacidades producidas por estas.
 
     .row.justify-content-center.mb-5
       .col-12.col-md-6.col-lg-6
@@ -411,6 +411,18 @@
           p.m-0.mb-lg-5 Concretamente, se articulan organizaciones funcionales en temas de salud tanto públicas como privadas teniendo en cuenta las condiciones de operación del Modelo Integral de Atención en Salud (MIAS) y bajo principio de disponibilidad, adaptabilidad, accesibilidad y calidad, contando con recursos humanos, técnicos y financieros para formar una red integral de prestadores de servicios de salud. 
 
     p.mb-4.m-top Cada red debe consolidarse para una población y entorno territorial de referencia y deberá contar con dos componentes prestacionales que son:
+
+    ol.lista-ol--cuadro.mb-5
+      li 
+        .lista-ol--cuadro__vineta
+          span 1
+        p <b>Componente primario de prestación:</b> se encarga de las actividades definidas como primarias de acuerdo con las Rutas Integrales de Atención en Salud (RIAS), este componente debe resolver mínimo el 80% de los problemas de salud de la población por lo que debe ser cercano a la comunidad, debe prestar varios servicios con diferentes prestadores que pueden ser públicos, privados o mixtos, deben estar direccionados al cumplimiento de los objetivos de la gestión integral.
+      li 
+        .lista-ol--cuadro__vineta
+          span 2
+        p <b>Componente complementario de prestación:</b> se encarga de las acciones individuales de mayor complejidad en la atención. Está dirigido a la atención de eventos de enfermedad que requieren tecnología o competencias especializadas y que no están disponibles en el componente primario.
+    
+    p.mb-4 Algunos elementos que la red integral de prestación de servicios de salud debe tener en cuenta para su gestión son:
     
     .bg_fondo5
       .row.justify-content-center.align-items-center
@@ -437,7 +449,12 @@
     
     Separador
 
-    p.mb-4 Las funciones generales del aseguramiento social en salud incluyen: 
+    ul.lista-ul.mb-4
+      li 
+        <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
+        h2.ps-2 Redefinición del rol del asegurador
+
+    p.mb-5 Las funciones generales del aseguramiento social en salud incluyen: 
 
     .row.justify-content-center.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0

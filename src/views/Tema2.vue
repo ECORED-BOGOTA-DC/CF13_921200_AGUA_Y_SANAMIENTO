@@ -112,11 +112,6 @@
           .p-2
           p.text-center.pb-4 <b>Nota:</b> tomado de Álvarez, C. (2014). Manual de operación, el modelo de evaluación de programas de salud (p.35).
     
-    .row.justify-content-center.mb-5
-      .col-12.col-md-8
-        .tarjeta.bg_color12.px-4.pt-3.pb-2
-          p.text-center.text-white(data-aos="fade-up") A continuación, analicemos a profundad todos los procesos dentro de las etapas del proceso de evaluación:
-    
     ul.lista-ul.mb-5
       li 
         <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>

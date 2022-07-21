@@ -7,7 +7,7 @@
         span.text-white 4
       h1 Normas de seguridad y conservación del medio ambiente y salud pública
 
-    p.mb-4 La normatividad legal vigente es la base de todos los procesos ambientales y de salud pública, por lo cual es muy importante conocer a manera general la información más relevante del tema, sin embargo, es importante aclarar que siempre se debe consultar las últimas actualizaciones
+    p.mb-4 La normatividad legal vigente es la base de todos los procesos ambientales y de salud pública, por lo cual es muy importante conocer a manera general la información más relevante del tema, sin embargo, es importante aclarar que siempre se debe consultar las últimas actualizaciones.
 
     .row.justify-content-center.align-items-center
       .col-12.col-md-6
@@ -55,7 +55,7 @@
                   img(src='@/assets/curso/tema4/img04.svg', alt='Texto que describa la imagen')
               
             h4.text-center.mb-4 Decreto único reglamentario del sector salud<br>y protección social
-            p.m-0.text-center Este es el denominado decreto 780 (2016): por medio del cual se expide el decreto único reglamentario del sector salud y protección social, en su parte 8 normas relativas a la salud pública, título VIII sistema de vigilancia en salud pública
+            p.m-0.text-center Este es el denominado decreto 780 (2016): por medio del cual se expide el decreto único reglamentario del sector salud y protección social, en su parte 8 normas relativas a la salud pública, título VIII sistema de vigilancia en salud pública.
             
           .col-md.tarjeta.color-acento-botones.p-5(data-aos="fade-left")
             .row.justify-content-center.mb-4
@@ -80,7 +80,7 @@
       .row.align-items-center
         .col-md-5.mb-4.mb-md-0(data-aos="fade-right")
           p.m-0.mb-4 <b>Ley 9 (1979)</b>
-          p.m-0 De acuerdo con García, C., García, J., y Vaca., M (2013) se creó el código sanitario nacional, adoptó un enfoque amplio de los aspectos que intervienen en la salud humana incluyendo elementos específicos en relación con la protección del medio ambiente, fundamentándose en la comprensión de que la relación del ser humano con su entorno ambiental es un determinante básico de la calidad de vida y la condición de salud (p.57)
+          p.m-0 De acuerdo con García, C., García, J., y Vaca., M (2013) se creó el código sanitario nacional, adoptó un enfoque amplio de los aspectos que intervienen en la salud humana incluyendo elementos específicos en relación con la protección del medio ambiente, fundamentándose en la comprensión de que la relación del ser humano con su entorno ambiental es un determinante básico de la calidad de vida y la condición de salud (p.57).
         .col-md-7(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema4/img06.png', alt='Texto que describa la imagen')
@@ -106,7 +106,7 @@
         .row.align-items-center
           .col-md-5.mb-4.mb-md-0
             p.m-0.mb-4 <b>Decreto 3678 (2010)</b>
-            p.m-0 define los criterios que deben tener en cuenta las autoridades para imponer sanciones de tipo ambiental.
+            p.m-0 Define los criterios que deben tener en cuenta las autoridades para imponer sanciones de tipo ambiental.
           .col-md-7
             figure
               img(src='@/assets/curso/tema4/img09.png', alt='Texto que describa la imagen')
@@ -123,7 +123,7 @@
         .row.align-items-center
           .col-md-5.mb-4.mb-md-0
             p.m-0.mb-4 <b>Política de salud ambiental (2011)</b>
-            p.m-0 Adopta el modelo de determinación social de la salud, que considera que la salud o la enfermedad no son un acontecimiento de orden exclusivamente bio natural, ni se dan aisladas en un ambiente individual, sino que son la resultante de relaciones e interacciones dinámicas entre el individuo biológico, su entorno y sus condiciones de vida en los ámbitos económico, ambiental, cultural y político (García, C., García, J., y Vaca., M, 2013, p.61)
+            p.m-0 Adopta el modelo de determinación social de la salud, que considera que la salud o la enfermedad no son un acontecimiento de orden exclusivamente bio natural, ni se dan aisladas en un ambiente individual, sino que son la resultante de relaciones e interacciones dinámicas entre el individuo biológico, su entorno y sus condiciones de vida en los ámbitos económico, ambiental, cultural y político (García, C., García, J., y Vaca., M, 2013, p.61).
           .col-md-7
             figure
               img(src='@/assets/curso/tema4/img11.png', alt='Texto que describa la imagen')
@@ -140,7 +140,7 @@
         .row.align-items-center
           .col-md-5.mb-4.mb-md-0
             p.m-0.mb-4 <b>Resolución 1536 (2015)</b>
-            p.m-0or la cual se establecen disposiciones sobre el proceso de planeación integral para la salud, estableciendo sus disposicines las cuales están a cargo de las entidades territoriales del nivel departamental, distrital y municipal.
+            p.m-0 La cual se establecen disposiciones sobre el proceso de planeación integral para la salud, estableciendo sus disposicines las cuales están a cargo de las entidades territoriales del nivel departamental, distrital y municipal.
           .col-md-7
             figure
               img(src='@/assets/curso/tema4/img13.png', alt='Texto que describa la imagen')
@@ -148,7 +148,7 @@
       .row.align-items-center
         .col-md-5.mb-4.mb-md-0
           p.m-0.mb-4 <b>Resolución 518 (2015)</b>
-          p.m-0 Estrategia Institucional para la Articulación de Políticas y Acciones en Materia de Cambio Climático en Colombia.
+          p.m-0 Resolución 518 (2015) por la cual se dictan disposiciones en relación con la gestión de la salud pública y se establecen directrices para la ejecución, seguimiento y evaluación del Plan de Salud Pública de Intervenciones Colectivas (PIC).
         .col-md-7
           figure
             img(src='@/assets/curso/tema4/img14.png', alt='Texto que describa la imagen')
@@ -157,7 +157,7 @@
         .row.align-items-center
           .col-md-5.mb-4.mb-md-0
             p.m-0.mb-4 <b>Ley 1931 (2018)</b>
-            p.m-0 la cual define las características para la gestión del cambio climático de las personas públicas y privadas
+            p.m-0 La cual define las características para la gestión del cambio climático de las personas públicas y privadas.
           .col-md-7
             figure
               img(src='@/assets/curso/tema4/img15.png', alt='Texto que describa la imagen')
@@ -165,7 +165,7 @@
       .row.align-items-center
         .col-md-5.mb-4.mb-md-0
           p.m-0.mb-4 <b>Resolución 1561 (2019)</b>
-          p.m-0 por el cual se establecen los términos de referencia para los estudios de impacto ambiental.
+          p.m-0 Por el cual se establecen los términos de referencia para los estudios de impacto ambiental.
         .col-md-7
           figure
             img(src='@/assets/curso/tema4/img16.png', alt='Texto que describa la imagen')
@@ -185,7 +185,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img17.png')})`}"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p Principio de Rigor Subsidiario. Las normas y medidas de policía ambiental, es decir aquellas que las autoridades medioambientales expidan para la regulación del uso, manejo, aprovechamiento y movilización de los recursos naturales renovables, o para la preservación del medio ambiente natural, bien sea que limiten el ejercicio de derechos individuales y libertades públicas para la preservación o restauración del medio ambiente, o que exijan licencia o permiso para el ejercicio de determinada actividad por la misma causa, podrán hacerse sucesiva y respectivamente más rigurosas, pero no más flexibles, por las autoridades competentes del nivel regional, departamental, distrital o municipal, en la medida en que se desciende en la jerarquía normativa y se reduce el ámbito territorial de las competencias, cuando las circunstancias locales especiales así lo ameriten, en concordancia con el artículo 51 de la presente Ley. (Congreso de la República de Colombia, 1993)
+        p Principio de Rigor Subsidiario. Las normas y medidas de policía ambiental, es decir aquellas que las autoridades medioambientales expidan para la regulación del uso, manejo, aprovechamiento y movilización de los recursos naturales renovables, o para la preservación del medio ambiente natural, bien sea que limiten el ejercicio de derechos individuales y libertades públicas para la preservación o restauración del medio ambiente, o que exijan licencia o permiso para el ejercicio de determinada actividad por la misma causa, podrán hacerse sucesiva y respectivamente más rigurosas, pero no más flexibles, por las autoridades competentes del nivel regional, departamental, distrital o municipal, en la medida en que se desciende en la jerarquía normativa y se reduce el ámbito territorial de las competencias, cuando las circunstancias locales especiales así lo ameriten, en concordancia con el artículo 51 de la presente Ley. (Congreso de la República de Colombia, 1993).
 
     .row.justify-content-center.mb-4
       .col-12.col-md-10
@@ -210,7 +210,7 @@
             .tarjeta-numerada.color-primario.p-4.mb-5
               .tarjeta-numerada__numero.num_1
                 .h2.numero 2
-              p.text-center.flex-center-text.ms-2 Identificación de legislación, requisitos legales y otros requisitos (teniendo en cuenta el principio de rigor subsidiario”)
+              p.text-center.flex-center-text.ms-2 Identificación de legislación, requisitos legales y otros requisitos (teniendo en cuenta el principio de rigor subsidiario”).
 
             .tarjeta-numerada.color-primario.p-4.mb-5
               .tarjeta-numerada__numero.num_1
@@ -233,7 +233,7 @@
             .tarjeta-numerada.color-primario.p-4
               .tarjeta-numerada__numero.num_1
                 .h2.numero 6
-              p.text-center.flex-center-text Generación de un registro. (p. 4)
+              p.text-center.flex-center-text Generación de un registro. (p. 4).
     
     p.m-0.mb-4.mb-md-0 Usualmente las matrices legales de las organizaciones o entidades son desarrolladas en ese último paso de generación de un registro, el cual hace referencia a un documento donde quede consignado que base normativa fue identificada y si el proyecto o la organización lo cumple o no, para ello se realizan tablas con la siguiente información como mínimo:
 
@@ -246,7 +246,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 1
-              | Tipo de Norma: describe la tipología de la norma que se identificó que es aplicable (ley, decreto, resolución, acuerdo, Norma Técnica Colombia NTC, entre otros)
+              | Tipo de Norma: describe la tipología de la norma que se identificó que es aplicable (ley, decreto, resolución, acuerdo, Norma Técnica Colombia NTC, entre otros).
             li 
               .lista-ol--cuadro__vineta
                 span 2
@@ -265,7 +265,7 @@
               | Artículos que aplican: resumir que artículos de la norma aplican a la organización.
             li 
               .lista-ol--cuadro__vineta
-                span 5
+                span 6
               | Aplicable; en las últimas columnas se debe evaluar con una (x) si la norma se aplica actualmente o no en la organización. 
 
 

@@ -104,19 +104,19 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="El Registro Único de Afiliados (RUAF)")
             .col-md-12.mb-4.mb-md-0
-              p.m-0.mb-4.mx-5 Según Bernal, O., y Forero J, (2011) maneja información de afiliación a todos los componentes de la protección social (salud, pensiones, riesgos profesionales, etc.) La información es reportada directamente por las administradoras al Registro Único de Afiliados (RUAF) excepto salud que tiene un mecanismo de reporte diferente a través del Fondo de Solidaridad y Garantía (FOSYGA) (p. 90)
-              p.m-0.mx-5 El sistema permite el flujo de información entre los actores del Sistema, respetando la confidencialidad de la información y el rol de cada uno de los administradores. (Ministerio de Salud, 2020)
+              p.m-0.mb-4.mx-5 Según Bernal, O., y Forero J, (2011) maneja información de afiliación a todos los componentes de la protección social (salud, pensiones, riesgos profesionales, etc.) La información es reportada directamente por las administradoras al Registro Único de Afiliados (RUAF) excepto salud que tiene un mecanismo de reporte diferente a través del Fondo de Solidaridad y Garantía (FOSYGA) (p. 90).
+              p.m-0.mx-5 El sistema permite el flujo de información entre los actores del Sistema, respetando la confidencialidad de la información y el rol de cada uno de los administradores. (Ministerio de Salud, 2020).
           div(titulo="Los Registros Individuales de Prestación de Servicios de Salud (RIPS)")
-            p.m-0.mx-5 Estos ya son un conjunto de datos mínimo y básicos del sistema de seguridad social, fue creado en cumplimiento de la resolución 3372 (2000) y es aplicable para instituciones prestadoras de salud (IPS) profesionales independientes entre otros. Con estos datos se realiza regulación, control y soporte de venta de servicios de salud (Ministerio de Salud, 2015)
+            p.m-0.mx-5 Estos ya son un conjunto de datos mínimo y básicos del sistema de seguridad social, fue creado en cumplimiento de la resolución 3372 (2000) y es aplicable para instituciones prestadoras de salud (IPS) profesionales independientes entre otros. Con estos datos se realiza regulación, control y soporte de venta de servicios de salud (Ministerio de Salud, 2015).
           div(titulo="La Planilla Integrada de Liquidación de Aportes (PILA)")
-            p.m-0.mx-5 La Planilla Integrada de Liquidación de Aportes (PILA) es la base de datos que maneja información de empleo, cotizantes y aportantes a los diferentes módulos de la protección social (Bernal, O y Forero J, 2011, p.90)
+            p.m-0.mx-5 La Planilla Integrada de Liquidación de Aportes (PILA) es la base de datos que maneja información de empleo, cotizantes y aportantes a los diferentes módulos de la protección social (Bernal, O y Forero J, 2011, p.90).
           .row(titulo="El Sistema de Gestión Hospitalaria (SIHO)")
             .col-md-12.mb-4.mb-md-0
-              p.m-0.mb-4.mx-5 El Sistema de Gestión Hospitalaria (SIHO) el cual fue creado bajo el Decreto 2193 (2004) hace obligatorio el reporte de los Registros Individuales de Prestación de Servicios de Salud (RIPS) al Ministerio de Salud, los reportes periódicos de las finanzas y servicios a la superintendencia de salud por la mayoría de los actores que intervienen (Zapata, J, 2013, p.25)
-              p.m-0.mx-5 Este sistema recopila en forma periódica información contable, flujos de ingresos y gastos, la producción hospitalaria y de pasivos pensionales, entre otra información que reportan los cerca de mil hospitales públicos (Zapata, J, 2013, p.31)
+              p.m-0.mb-4.mx-5 El Sistema de Gestión Hospitalaria (SIHO) el cual fue creado bajo el Decreto 2193 (2004) hace obligatorio el reporte de los Registros Individuales de Prestación de Servicios de Salud (RIPS) al Ministerio de Salud, los reportes periódicos de las finanzas y servicios a la superintendencia de salud por la mayoría de los actores que intervienen (Zapata, J, 2013, p.25).
+              p.m-0.mx-5 Este sistema recopila en forma periódica información contable, flujos de ingresos y gastos, la producción hospitalaria y de pasivos pensionales, entre otra información que reportan los cerca de mil hospitales públicos (Zapata, J, 2013, p.31).
           div(titulo="El Sistema de Información de Precios de Medicamentos (SISMED)")
             p.m-0.mx-5.mb-4 El Sistema de Información de Precios de Medicamentos (SISMED) es una estrategia de salud pública que tiene por objetivo mejorar la accesibilidad a medicamentos esenciales por parte de la población, especialmente para aquellos de escasos recursos económicos, enmarcado en los lineamientos de lucha contra la pobreza y descentralización.
-            p.m-0.mx-5 El sistema de información de precios medicamentos registra datos de precios de compra y venta de medicamentos por parte de IPS, EPS, droguerías, etc. Bernal, O y Forero J, 2011, p.90)
+            p.m-0.mx-5 El sistema de información de precios medicamentos registra datos de precios de compra y venta de medicamentos por parte de IPS, EPS, droguerías, etc. (Bernal, O y Forero J, 2011, p.90).
 
 
     
