@@ -412,15 +412,20 @@
 
     p.mb-4.m-top Cada red debe consolidarse para una población y entorno territorial de referencia y deberá contar con dos componentes prestacionales que son:
 
-    ol.lista-ol--cuadro.mb-5
-      li 
-        .lista-ol--cuadro__vineta
-          span 1
-        p <b>Componente primario de prestación:</b> se encarga de las actividades definidas como primarias de acuerdo con las Rutas Integrales de Atención en Salud (RIAS), este componente debe resolver mínimo el 80% de los problemas de salud de la población por lo que debe ser cercano a la comunidad, debe prestar varios servicios con diferentes prestadores que pueden ser públicos, privados o mixtos, deben estar direccionados al cumplimiento de los objetivos de la gestión integral.
-      li 
-        .lista-ol--cuadro__vineta
-          span 2
-        p <b>Componente complementario de prestación:</b> se encarga de las acciones individuales de mayor complejidad en la atención. Está dirigido a la atención de eventos de enfermedad que requieren tecnología o competencias especializadas y que no están disponibles en el componente primario.
+    .row.justify-content-center.mb-5
+      .col-12.col-xxl-6.col-xl-6.col-lg-6.col-md-6.mb-5.mb-lg-0
+        .tarjeta.tarjeta-text1
+          img(src="@/assets/curso/tema1/img59.png" alt="Adornos flotantes" style="width: 100% ").mb-3
+          .tarjeta-text1__contenido.px-4.pb-4.pt-3
+            h4.pb-0.pb-lg-4 Componente primario de prestación:
+            p.pe-5.pe-lg-0.me-4.me-lg-0 Se encarga de las actividades definidas como primarias de acuerdo con las Rutas Integrales de Atención en Salud (RIAS), este componente debe resolver mínimo el 80% de los problemas de salud de la población por lo que debe ser cercano a la comunidad, debe prestar varios servicios con diferentes prestadores que pueden ser públicos, privados o mixtos, deben estar direccionados al cumplimiento de los objetivos de la gestión integral.
+
+      .col-12.col-xxl-6.col-xl-6.col-lg-6.col-md-6
+        .tarjeta.tarjeta-text2
+          img(src="@/assets/curso/tema1/img60.png" alt="Adornos flotantes" style="width: 100% ").mb-3
+          .tarjeta-text2__contenido.px-4.pb-4.pt-3
+            h4.p-1 Componente complementario de prestación:
+            p Se encarga de las acciones individuales de mayor complejidad en la atención. Está dirigido a la atención de eventos de enfermedad que requieren tecnología o competencias especializadas y que no están disponibles en el componente primario.
     
     p.mb-4 Algunos elementos que la red integral de prestación de servicios de salud debe tener en cuenta para su gestión son:
     
@@ -634,4 +639,56 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+
+.tarjeta-text1
+  position: relative
+  overflow: hidden
+  border-radius: 0px
+
+  &__contenido
+    width: 100%
+    transition: bottom 0.3s ease-in-out
+    border-radius: 0px
+    position: absolute
+    background-color: #B0DDF4
+    bottom: -11%
+    p
+      display: none
+      transition: opacity 0.3s ease-in-out
+      opacity: 0
+
+  &:hover
+    .tarjeta-text1__contenido
+      bottom: 0
+      @media screen and ( max-width: 420px)
+        width: 130%
+        height: 270px
+      p
+        display: block
+        opacity: 1
+
+.tarjeta-text2
+  position: relative
+  overflow: hidden
+  border-radius: 0px
+
+  &__contenido
+    width: 100%
+    transition: bottom 0.3s ease-in-out
+    border-radius: 0px
+    position: absolute
+    background-color: #B0DDF4
+    bottom: -7%
+    p
+      display: none
+      transition: opacity 0.3s ease-in-out
+      opacity: 0
+
+  &:hover
+    .tarjeta-text2__contenido
+      bottom: 0
+      p
+        display: block
+        opacity: 1
+</style>
