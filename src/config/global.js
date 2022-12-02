@@ -179,7 +179,7 @@ export default {
       referencia:
         'Congreso de la República de Colombia. (Diciembre de 1993) [Ley 99 de 1993].',
       link:
-        'https://www.habitatbogota.gov.co/transparencia/normatividad/normatividad/ley-99-1993#:~:text=Descripci%C3%B3n%3A,y%20se%20dictan%20otras%20disposiciones.',
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/08/ley-99-1993.pdf',
     },
     {
       referencia:
@@ -189,7 +189,7 @@ export default {
       referencia:
         'Ministerio de Ambiente y Desarrollo sostenible. (s.f.). Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible.',
       link:
-        'https://www.minambiente.gov.co/index.php/component/content/article/2093-plantilla-areas-planeacion-y-seguimiento-30',
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/06/Decreto-1076-de-2015.pdf',
     },
     {
       referencia:
@@ -327,7 +327,7 @@ export default {
         'Rodríguez, F. (s.f.). Matriz de requisitos legales. Programa de gestión ambiental empresarial. Secretaria Distrital de Ambiente (SDA). Bogotá. Colombia.',
       tipo: 'Presentaciones',
       link:
-        'http://ambientebogota.gov.co/c/document_library/get_file?uuid=fb013cd6-e4c9-44f9-a78a-8db98e308d9a&groupId=24732',
+        'https://docplayer.es/17218334-Matriz-de-requisitos-legales-secretaria-distrital-de-ambiente-programa-de-gestion-ambiental-empresarial-nivel-2-ing-diego-f-rodriguez-g.html',
     },
   ],
   creditos: {

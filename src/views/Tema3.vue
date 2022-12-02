@@ -30,10 +30,10 @@
 
     .bg_fondo14.mb-5
       .row.align-items-end
-        .col-12.col-md-3.mb-4.mb-md-0(data-aos="fade-right")
+        .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
           figure.justify-center
-            img.img-fluid(src="@/assets/curso/tema3/img02.png")        
-        .col-12.col-md-7(data-aos="fade-left")
+            img.img-t.m-auto(src="@/assets/curso/tema3/img02.png")        
+        .col-lg-7(data-aos="fade-left")
           ul.lista-ul
             li 
               i.fas.fa-angle-right(style= "color: #5D00F5")
@@ -66,7 +66,7 @@
                 p.m-0.ms-0.ms-xl-3 Este sistema siempre se encuentra en actualización para mejorar los reportes, una de las últimas actualizaciones más importantes fue realizada en el 2017 mejorando procesos de notificación y gestión de información que se aplicarán en el periodo del 2018 al 2020 (Instituto Nacional de Salud INS, 2017).
               .col-xl-4
                 figure
-                  img(src='@/assets/curso/tema3/img04.svg', alt='Texto que describa la imagen')
+                  img.img-t.m-auto(src='@/assets/curso/tema3/img04.svg', alt='Texto que describa la imagen')
           
           .tarjeta.color-acento-botones--borde.p-4(titulo="Sistema Integrado de Información de la Protección Social (SISPRO)")
             .row
@@ -92,18 +92,18 @@
                     p.mt-1.m-0 Recoge información de fuentes internas y externas del ministerio.
               .col-xl-5.align-self-end.mb-5
                 figure
-                  img(src='@/assets/curso/tema3/img05.svg', alt='Texto que describa la imagen')
+                  img.img-t.m-auto(src='@/assets/curso/tema3/img05.svg', alt='Texto que describa la imagen')
 
     p.m-0.mb-4.mb-md-5 Este sistema es alimentado o construido por medio de diferentes reportes que recibe de otros instrumentos como: 
 
     .row.justify-content-center
-      .col-12.col-md-4.mb-4.mb-md-0(data-aos="fade-right")
+      .col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         figure
-          img.img271(src='@/assets/curso/tema3/img06.svg')
-      .col-12.col-md-8(data-aos="fade-left")
+          img.img-t.m-auto.d-none.d-lg-block(src='@/assets/curso/tema3/img06.svg')
+      .col-lg-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="El Registro Único de Afiliados (RUAF)")
-            .col-md-12.mb-4.mb-md-0
+            .col-lg-12.mb-4.mb-lg-0
               p.m-0.mb-4.mx-5 Según Bernal, O., y Forero J, (2011) maneja información de afiliación a todos los componentes de la protección social (salud, pensiones, riesgos profesionales, etc.) La información es reportada directamente por las administradoras al Registro Único de Afiliados (RUAF) excepto salud que tiene un mecanismo de reporte diferente a través del Fondo de Solidaridad y Garantía (FOSYGA) (p. 90).
               p.m-0.mx-5 El sistema permite el flujo de información entre los actores del Sistema, respetando la confidencialidad de la información y el rol de cada uno de los administradores. (Ministerio de Salud, 2020).
           div(titulo="Los Registros Individuales de Prestación de Servicios de Salud (RIPS)")
@@ -111,15 +111,12 @@
           div(titulo="La Planilla Integrada de Liquidación de Aportes (PILA)")
             p.m-0.mx-5 La Planilla Integrada de Liquidación de Aportes (PILA) es la base de datos que maneja información de empleo, cotizantes y aportantes a los diferentes módulos de la protección social (Bernal, O y Forero J, 2011, p.90).
           .row(titulo="El Sistema de Gestión Hospitalaria (SIHO)")
-            .col-md-12.mb-4.mb-md-0
+            .col-lg-12.mb-4.mb-lg-0
               p.m-0.mb-4.mx-5 El Sistema de Gestión Hospitalaria (SIHO) el cual fue creado bajo el Decreto 2193 (2004) hace obligatorio el reporte de los Registros Individuales de Prestación de Servicios de Salud (RIPS) al Ministerio de Salud, los reportes periódicos de las finanzas y servicios a la superintendencia de salud por la mayoría de los actores que intervienen (Zapata, J, 2013, p.25).
               p.m-0.mx-5 Este sistema recopila en forma periódica información contable, flujos de ingresos y gastos, la producción hospitalaria y de pasivos pensionales, entre otra información que reportan los cerca de mil hospitales públicos (Zapata, J, 2013, p.31).
           div(titulo="El Sistema de Información de Precios de Medicamentos (SISMED)")
             p.m-0.mx-5.mb-4 El Sistema de Información de Precios de Medicamentos (SISMED) es una estrategia de salud pública que tiene por objetivo mejorar la accesibilidad a medicamentos esenciales por parte de la población, especialmente para aquellos de escasos recursos económicos, enmarcado en los lineamientos de lucha contra la pobreza y descentralización.
             p.m-0.mx-5 El sistema de información de precios medicamentos registra datos de precios de compra y venta de medicamentos por parte de IPS, EPS, droguerías, etc. (Bernal, O y Forero J, 2011, p.90).
-
-
-    
 
 
 </template>

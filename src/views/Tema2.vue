@@ -23,7 +23,7 @@
 
       .row.justify-content-center.mb-3
         .col-md-10(data-aos="fade-down")
-          .tarjeta-color.bg_color10.p-4
+          .bg_color10.p-4
             p.m-0 Las evaluaciones que se ejecuten deben tener una estructura definida y un proceso claro, así como una estructura sistemática y objetiva que minimicen al máximo el sesgo del evaluador, que permita ver el programa desde diferentes enfoques, entre los cuales están:
 
       .row.justify-content-center
@@ -77,7 +77,7 @@
           .tarjeta.color-acento-contenido
             .p-4
               h4 Alcance global
-              p Integra la medición de las necesidades de salud de una población, tiene en cuenta las políticas públicas a las cuales esa población está sujeta y al mismo tiempo evalúa si alguna vez se han desarrollado otros programas de salud con la comunidad.
+              p.m-0 Integra la medición de las necesidades de salud de una población, tiene en cuenta las políticas públicas a las cuales esa población está sujeta y al mismo tiempo evalúa si alguna vez se han desarrollado otros programas de salud con la comunidad.
     
     .row.justify-content-center
       .col-lg-10
@@ -86,8 +86,8 @@
             img(data-aos="fade-right")(src='@/assets/curso/tema2/img07.svg' alt='AvatarTop' style= "height: 178px")
           .tarjeta.color-acento-contenido
             .p-4
-              h4.mt-4.mt-md-0.mt-lg-0 Alcance operativo
-              p.mt-4.mt-md-0.mt-lg-0 Se define la evaluación en términos de la estructura y los procesos de atención a la salud, los procesos para prestar el servicio y los equipos con los que se cuenta.
+              h4 Alcance operativo
+              p.m-0 Se define la evaluación en términos de la estructura y los procesos de atención a la salud, los procesos para prestar el servicio y los equipos con los que se cuenta.
 
     Separador
     
@@ -118,10 +118,10 @@
         h3.ps-2 Diagnóstico del entorno del programa y definición de propósitos generales de la evaluación
 
     .row.justify.content-center.align.items-center.mb-5
-      .col-12.col-md-4.mb-4.mb-md-0(data-aos="fade-right")
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img.img-fluid(src="@/assets/curso/tema2/img10.png")
-      .col-12.col-md-7.align-self-center(data-aos="fade-left")
+          img.img-t.m-auto(src="@/assets/curso/tema2/img10.png")
+      .col-lg-7.align-self-center(data-aos="fade-left")
         .cajon-b.color-primario.p-2.mb-2
           p.mb-4 Realizar un diagnóstico del entorno del programa es un proceso que debe tener en cuenta varios lineamientos y diferentes puntos de vista para tener un concepto global y así poder establecer los propósitos generales de la evaluación.
           p En primera medida se realiza el reconocimiento del contexto de operación del programa y una vez reconocido se procede a determinar los propósitos, en caso de no hacer un reconocimiento del contexto se pueden plantear propósitos que no se pueden cumplir o que simplemente no se necesitan, esto genera costos innecesarios en los programas y retrasos en los tiempos de ejecución de propósitos que sí son necesarios.
@@ -132,18 +132,18 @@
         h3.ps-2 Reconocimiento del contexto de operación del programa
 
     .row.justify.content-center.align.items-center.mb-5
-      .col-12.col-md-7.align-self-center.mb-4.mb-md-0(data-aos="fade-right")
+      .col-lg-7.align-self-center.order-last.order-lg-first(data-aos="fade-right")
           p.m-0 Esta actividad se considera la base de los programas en salud, es tan relevante que debe ser considerada antes de iniciar la planeación y desarrollo de las actividades de evaluación de programas. Dentro del reconocimiento se debe estudiar el programa y los posibles problemas que este puede presentar sobre todo en términos de operación. Debido a esto se deben realizar visitas de campo, entrevistas informales con trabajadores y beneficiarios, revisión de infraestructura y de ser necesario elaborar listado de requerimientos.
-      .col-12.col-md-5(data-aos="fade-left")
+      .col-lg-5.order-first.order-lg-last.mb-4.mb-lg-0(data-aos="fade-left")
         figure
-          img.img-fluid(src="@/assets/curso/tema2/img11.png")
+          img.img-t.m-auto(src="@/assets/curso/tema2/img11.png")
 
     .bg_fondo8.mb-4
       .row.align-items-center
-        .col-12.col-md-4.mb-4.mb-md-0(data-aos="fade-right")
+        .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
           figure.justify-center
-            img(src="@/assets/curso/tema2/img12.svg")        
-        .col-12.col-md-8(data-aos="fade-left")
+            img.img-t.m-auto(src="@/assets/curso/tema2/img12.svg")        
+        .col-lg-8(data-aos="fade-left")
           p.m-0.me-4 Cuando la evaluación se hace sobre un propósito poblacional es necesario identificar las características de las localidades, los servicios de salud, los perfiles del personal, la infraestructura que incluye los centros de salud, archivos, consultorios, equipos y ver si todo está articulado en función de la comunidad. Por ejemplo, de nada serviría tener una infraestructura adecuada si el horario de atención no se ajusta a las necesidades poblacionales, o si esta no puede acceder al lugar porque no hay vías.
 
     ul.lista-ul.mb-4.pt-5
@@ -151,17 +151,17 @@
         <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
         h3.ps-2 Determinación de los propósitos de la evaluación
 
-    p.m-0.mb-4 Este punto es clave para atender las expectativas de los usuarios principales, determinando si los propósitos que se quieren alcanzar corresponden a los requerimientos de información de quien toma las decisiones.
-    p.m-0.mb-4 Los propósitos principalmente se deben determinar teniendo en cuenta la efectividad, eficiencia y el impacto final de cada programa, sin embargo, para fines administrativos también se puede tener una perspectiva de enfocar los propósitos de evaluación frente a la calidad de la atención, necesidades o cumplimiento de la normatividad institucional.
+    p Este punto es clave para atender las expectativas de los usuarios principales, determinando si los propósitos que se quieren alcanzar corresponden a los requerimientos de información de quien toma las decisiones.
+    p Los propósitos principalmente se deben determinar teniendo en cuenta la efectividad, eficiencia y el impacto final de cada programa, sin embargo, para fines administrativos también se puede tener una perspectiva de enfocar los propósitos de evaluación frente a la calidad de la atención, necesidades o cumplimiento de la normatividad institucional.
 
     .bg_fondo9.mb-5
       .row.align-items-center(data-aos="zoom-in-up")
-        .col-12.col-md-7.mt-4
-          p.m-0.mb-4 Un ejemplo de un propósito definido acorde a la efectividad, eficiencia e impacto final es: determinar las coberturas de atención de los programas de prevención y promoción de la salud a nivel de la población usuaria de servicios. Mientras que un propósito con un fin administrativo sería: determinar la calidad de la atención médica hospitalaria para población adscrita al Sistema de Protección Social en Salud y el grado de satisfacción de sus usuarios.    
+        .col-lg-7
+          p.mt-4 Un ejemplo de un propósito definido acorde a la efectividad, eficiencia e impacto final es: determinar las coberturas de atención de los programas de prevención y promoción de la salud a nivel de la población usuaria de servicios. Mientras que un propósito con un fin administrativo sería: determinar la calidad de la atención médica hospitalaria para población adscrita al Sistema de Protección Social en Salud y el grado de satisfacción de sus usuarios.    
           p.m-0 Cabe resaltar que los propósitos no son excluyentes y que se pueden alcanzar de manera simultánea o progresiva, sin embargo, cada uno de los propósitos debe medirse con distintas metodologías, instrumentos y criterios de evaluación, así como deben disponer de diferentes recursos materiales y financieros para poder cumplirse. Los programas deben ser claros para que no se presente ningún tipo de ambigüedad, al tiempo que se articulan con los objetivos y cuente con los recursos necesarios. 
-        .col-12.col-md-5
+        .col-lg-5
           figure.justify-center
-            img(src="@/assets/curso/tema2/img15.svg") 
+            img.img-t.m-auto(src="@/assets/curso/tema2/img15.svg") 
 
     ul.lista-ul.mb-4.pt-5
       li 
@@ -169,7 +169,7 @@
         h3.ps-2 Descripción del programa a evaluar
 
     p.m-0 Esta etapa es una de las actividades más delicadas debido a que es el acercamiento formal del evaluador con el objeto de estudio y eso hace que conozca a detalle cada uno de los componentes del programa. 
-    p.m-0.mb-5 En este punto, de ser necesario, se deben incorporar programas de intervención, mecanismos de control de gestión, parámetros de comparación, seguimiento de objetivos, metas y actividades de los programas, entre otros instrumentos, por lo que la decisión del evaluador incide directamente en la calidad del programa.
+    p.mb-5 En este punto, de ser necesario, se deben incorporar programas de intervención, mecanismos de control de gestión, parámetros de comparación, seguimiento de objetivos, metas y actividades de los programas, entre otros instrumentos, por lo que la decisión del evaluador incide directamente en la calidad del programa.
 
     .row.justify-content-center.mb-4
       .col-12.col-md-12
@@ -211,10 +211,10 @@
 
     .bg_fondo10.mb-0.mb-md-4
       .row.justify-content-center.align-items-center(data-aos="zoom-in-up")
-        .col-12.col-md-3
+        .col-lg-3
           figure.justify-center
-            img(src="@/assets/curso/tema2/img21.svg") 
-        .col-12.col-md-9.mt-5
+            img.img-t.mx-auto(src="@/assets/curso/tema2/img21.svg") 
+        .col-lg-9.mt-5
           p.m-0 Luego de realizar los respectivos análisis, el evaluador debe entregar un informe que por lo menos debe tener los siguientes elementos:
           ol.lista-ol--cuadro.mt-2
             li 
@@ -243,16 +243,16 @@
         <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
         h3.ps-2 Formulación de preguntas de evaluación:
 
-    p.m-0 El proceso evaluativo se basa en la determinación de las preguntas de evaluación, estas preguntas deben ser congruentes con los criterios de evaluación y deben estar relacionadas con los propósitos generales de la evaluación y del programa.
+    p.mb-4 El proceso evaluativo se basa en la determinación de las preguntas de evaluación, estas preguntas deben ser congruentes con los criterios de evaluación y deben estar relacionadas con los propósitos generales de la evaluación y del programa.
 
-    .bg_fondo11
+    .bg_fondo11.mb-5.mb-lg-0
       .row.align-items-center
-        .col-12.col-md-4.mt-4.mb-4.mb-md-0
+        .col-lg-4
           figure(data-aos="fade-right")
-            img(src="@/assets/curso/tema2/img23.png") 
-        .col-12.col-md-7(data-aos="fade-left")
-          p.m-0.mb-4 Se recomienda que las preguntas de la evaluación cumplan con las siguientes características:
-          ol.lista-ol--cuadro.mt-2.ms-3
+            img.img-t.m-auto(src="@/assets/curso/tema2/img23.png") 
+        .col-lg-7(data-aos="fade-left")
+          p.mb-4 Se recomienda que las preguntas de la evaluación cumplan con las siguientes características:
+          ol.lista-ol--cuadro.ms-3.m-0
             li 
               .lista-ol--cuadro__vineta
                 span 1
@@ -266,20 +266,20 @@
                 span 3
               | Deben haber sido seleccionadas y agrupadas para mantener un enfoque metodológico.
           
-    .row.justify-content-end
-      .col-12.col-md-8
+    .row.justify-content-end.mb-5
+      .col-lg-8
         p.m-0 Las preguntas siempre deben tener un marco lógico de acuerdo con el programa, una estructura adecuada, evaluar los resultados esperados del programa, los recursos utilizados, los tiempos gastados y la relación entre diferentes acciones con sus respectivos resultados.      
 
-    ul.lista-ul.pt-5
+    ul.lista-ul
       li 
         <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
         h3.ps-2 Diseño metodológico y trabajo de campo
 
     .row.justify-content-center
-        .col-12.col-md-11
-          figure(data-aos="fade-down")
-            img(src="@/assets/curso/tema2/img24.png") 
-          p.m-0.mb-4.mt-3 Una vez se definen los propósitos, el diseño metodológico es el cómo se van a realizar, para ello es necesario hacer diseño de estudio y planes de acción, definir los instrumentos y fuentes de información y organizar y ejecutar la supervisión del trabajo de campo.
+      .col-lg-11
+        figure.mb-4(data-aos="fade-down")
+          img(src="@/assets/curso/tema2/img24.png") 
+        p Una vez se definen los propósitos, el diseño metodológico es el cómo se van a realizar, para ello es necesario hacer diseño de estudio y planes de acción, definir los instrumentos y fuentes de información y organizar y ejecutar la supervisión del trabajo de campo.
 
     ul.lista-ul.pt-5.mb-5
       li 
@@ -287,21 +287,21 @@
         h3.ps-2 Diseño de estudio y plan de acción
 
     .row.justify-content-center.align-items-center
-      .col-12.col-md-8    
+      .col-lg-8.mb-4.mb-lg-0    
         .bg_fondo12.mb-5(data-aos="fade-right")
           p Esta etapa permite definir los procedimientos de estudio, la selección de las personas que serán estudiadas y las variables e instrumentos con las que se realizará la recolección de información.
           p A través del diseño de estudio se busca maximizar la confiabilidad y validez de los datos al tiempo que se reducen los posibles errores en los resultados. Para ello se debe hacer un análisis estadístico en la cantidad de información a recolectar teniendo en cuenta principios como muestra, universo, nivel de confiabilidad, entre otros.
         p El diseño de estudio debe ir de la mano con el plan de acción donde se determina si se hará una sola medición o si es necesario que se realicen mediciones comparativas y longitudinales, por ejemplo, determinar si hay un medicamento disponible en un centro de salud requerirá de solo una medición, si se habla de eficiencia en gastos de atención en salud por paciente atendido requerirá la comparación con otros puntos de atención para determinar que en promedio se gasta la misma cantidad de recursos en un paciente de un punto A que en un paciente de un punto B. Finalmente si se habla de satisfacción de la atención es necesario hacer un estudio antes, durante y después de la prestación del servicio para garantizar la confiabilidad de los resultados.
-      .col-12.col-md-4
+      .col-lg-4.mb-4
         figure(data-aos="fade-left")
-          img.pb-4(src="@/assets/curso/tema2/img26.svg") 
+          img.img-t.m-auto(src="@/assets/curso/tema2/img26.svg") 
 
     ul.lista-ul.mb-4.pt-5
       li 
         <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
         h3.ps-2 Definición de instrumentos y fuentes de información
 
-    p.m-0.mb-5 La confiabilidad, precisión, exactitud y reproducibilidad de los datos obtenidos en cualquier evaluación dependen de los instrumentos con los que se realice y de las fuentes de información seleccionadas. Dada la importancia de este procedimiento es necesario realizarlo de forma técnica y precisa, para ello se pueden utilizar:
+    p.mb-5 La confiabilidad, precisión, exactitud y reproducibilidad de los datos obtenidos en cualquier evaluación dependen de los instrumentos con los que se realice y de las fuentes de información seleccionadas. Dada la importancia de este procedimiento es necesario realizarlo de forma técnica y precisa, para ello se pueden utilizar:
 
     .row.mb-0.mb-md-5.mb-lg-5
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
@@ -344,10 +344,10 @@
 
     .bg_fondo13
       .row.align-items-center
-        .col-12.col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure(data-aos="fade-right")
-            img(src="@/assets/curso/tema2/img31.png") 
-        .col-12.col-md-8(data-aos="fade-left")
+            img.img-t.m-auto(src="@/assets/curso/tema2/img31.png") 
+        .col-lg-8(data-aos="fade-left")
           p.m-0 Cuando se van a realizar las actividades de evaluación es importante contar con un coordinador de equipo, que conduzca tanto las actividades técnicas como las administrativas a fin de optimizar tiempos, al igual es recomendable que haya investigadores de campo, estadistas e informáticos en el equipo, así como un administrador de recursos financieros.
           p.m-0.mb-4 Los resultados de la ejecución de la evaluación siempre deben presentarse en un informe técnico que incluye el nombre de las personas que realizaron el estudio, resumen de las actividades desarrolladas, introducción con antecedentes, objetivos claros, métodos explicados, resultados con interpretación, conclusiones y bibliografía.
 

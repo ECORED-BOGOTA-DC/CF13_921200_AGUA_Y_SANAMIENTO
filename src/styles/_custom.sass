@@ -70,15 +70,8 @@
 .img300
   max-width: 300px
 
-.img271
-  max-width: 271px 
-  @media screen and ( max-width: 992px )
-    max-width: 140px
-    margin-left: 30%
-
 .img145
-    max-width: 145px
-    
+    max-width: 145px   
 
 //otros
 
@@ -131,6 +124,9 @@ hr:not([size])
     height: 100%
     background-image: url("../assets/curso/tema1/img15.svg")
     background-repeat: no-repeat
+    @media (max-width: $bp-max-md)
+      left: 0%
+      width: 100% 
 
 .bg_fondo2
   position: relative
@@ -146,6 +142,8 @@ hr:not([size])
     height: 100%
     background-image: url("../assets/curso/tema1/img17.svg")
     background-repeat: no-repeat
+    @media (max-width: $bp-max-md)
+      background-size: cover
 
 .bg_fondo3
   position: relative
@@ -292,9 +290,11 @@ hr:not([size])
     background-repeat: no-repeat
     background-size: cover
     @media screen and ( max-width: 992px )
-      top: -115px
-      left: -21%
-      height: 115%
+      top: -12px
+      left: -10%
+      height: 104%
+      background-image: none
+      background-color: #D0E5F0
 
 
 .bg_fondo12
@@ -335,7 +335,10 @@ hr:not([size])
     @media screen and ( max-width: 992px )
       background-size: cover
       margin: 21px -2rem
-      top: 8px
+      top: -14px
+      left: -2%
+      width: 116%
+      
 
 .bg_fondo14
   position: relative
@@ -377,23 +380,22 @@ hr:not([size])
     content: ''
     position: absolute
     margin: 10px -1rem
-    top: 0rem
+    top: -4%
     left: 1%
     width: calc(100% + 6rem)
-    height: 100%
-    background-image: url("../assets/curso/tema1/img25.svg")
+    height: 81%
+    background-image: url("../assets/curso/tema1/img25-2.svg")
     background-repeat: no-repeat
     @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
       margin: 35px -1rem
       width: calc(100% + 1rem)
-      top: -2rem
-    @media screen and ( max-width: 992px )
+      height: 86%
+      top: -18%
+    @media (max-width: $bp-max-md)
       background-size: cover
-      top: -8%
-      left: -3%
-      width: calc(100% + 5rem)
-      height: 108%
-
+      top: -4%
+      width: 101% 
+      height: 105%
 
 .tarjeta-numerada.color-primario
     border-color: #43427D
@@ -587,7 +589,6 @@ hr:not([size])
     position: relative
     margin-right: 33px
     border-radius: 50%
-    margin-block: auto
 
 .t_num_lista-t1
   font-size: 30px
@@ -775,4 +776,6 @@ hr:not([size])
     margin-top: 8%
   @media screen and ( max-width: 992px )
     margin-top: 2%
-    margin-inline: 6%
+    margin-inline: 6%    
+
+

@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica
-        p.mb-4 Identificar los conocimientos adquiridos por esta unidad.
+        p.mb-4 Identificar los conocimientos adquiridos en el componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
